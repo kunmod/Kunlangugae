@@ -1,0 +1,2 @@
+# Kunlangugae
+Kunlangugae Translate File
