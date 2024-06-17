@@ -19,12 +19,8 @@ de
 
 es
 
-pt
-
-id
-
 fr
 
-vi
+Other languages that use Latin letters
 
-th
+
