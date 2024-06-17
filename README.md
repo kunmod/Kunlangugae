@@ -11,6 +11,8 @@ ko
 
 ru
 
+zh-Hans
+
 zh-Hant
 
 de
