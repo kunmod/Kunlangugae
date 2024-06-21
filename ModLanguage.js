@@ -121,7 +121,7 @@ class ModLanguage {
       chs: "自动吸收 [F8]",
       ja: "自動で吸収すんや [F8]",
       es: "Auto Absorber [F8]",
-      id: "Serap Otomatis [F8]",
+      id: "Absorpsi Otomatis [F8]",
       ko: "자동 흡수 [F8]",
       vi: "Tự Động Nhặt Echo [F8]",
     },
