@@ -24,12 +24,14 @@ class ModLanguage {
         return "id";
       case "Vietnamese":
         return "vi";
+      case "PTBR":
+        return "ptbr";
       default:
         return "en";
     }
   }
 
-  static Langs = ["English", "简体中文", "日本語", "Español", "Indonesia", "Vietnamese"];
+  static Langs = ["English", "简体中文", "日本語", "Español", "Indonesia", "Vietnamese", "PTBR"];
 
   static translate = [
     {
@@ -40,6 +42,7 @@ class ModLanguage {
       es: "Teleportación Personalizada[Ins]",
       id: "TpKustom[Ins]",
       vi: "DịchChuyểnTùyChỉnh[Ins]",
+      ptbr: "Teleporte custom[Ins]",
     },
 
     {
@@ -50,6 +53,7 @@ class ModLanguage {
       es: " : <color=green>ACTIVO</color> |",
       id: " : <color=green>ON</color> |",
       vi: " : <color=green>BẬT</color> |",
+      ptbr: " : <color=green>ATIVO</color> |",
     },
     {
       Text: "COLOR_OFF",
@@ -59,6 +63,7 @@ class ModLanguage {
       es: " : <color=red>DESACTIVADO</color> |",
       id: " : <color=red>OFF</color> |",
       vi: " : <color=red>TẮT</color> |",
+      ptbr: " : <color=red>DESATIVADO</color> |",
     },
     {
       Text: "TEXT_ON",
@@ -68,6 +73,7 @@ class ModLanguage {
       es: "ACTIVO",
       id: "ON",
       vi: "Bật",
+      ptbr: "ATIVO",
     },
     {
       Text: "TEXT_OFF",
@@ -77,6 +83,7 @@ class ModLanguage {
       es: "DESACTIVADO",
       id: "OFF",
       vi: "TẮT",
+      ptbr: "DESATIVADO",
     },
     {
       Text: "TEXT_GOD_MODE",
@@ -86,6 +93,7 @@ class ModLanguage {
       es: "Modo Dios[F5]",
       id: "ModeDewa[F5]",
       vi: "Bất Tử [F5]",
+      ptbr: "God Mode [F5]",
     },
     {
       Text: "TEXT_HIT_MULTIPLIER",
@@ -95,6 +103,7 @@ class ModLanguage {
       es: "Golpe Multiplicador[F6]",
       id: "PengaliHit[F6]",
       vi: "Số Lượng Đòn Đánh [F6]",
+      ptbr: "Multiplicador de hit [F6]",
     },
     {
       Text: "TEXT_AUTO_PICK_TREASURE",
@@ -104,6 +113,7 @@ class ModLanguage {
       es: "Auto Recoger Tesoro[F7]",
       id: "AmbilHartaOtomatis[F7]",
       vi: "Tự Động Nhặt Phần Thưởng[F7]",
+      ptbr: "Pegar tesouros automaticamente [F7]",
     },
     {
       Text: "TEXT_AUTO_ABSORB",
@@ -113,6 +123,7 @@ class ModLanguage {
       es: "Auto Absorber[F8]",
       id: "SerapOtomatis[F8]",
       vi: "Tự Động Hấp Thụ Echo[F8]",
+      ptbr: "Auto absorver [F8]",
     },
     {
       Text: "TEXT_KILL_AURA",
@@ -122,6 +133,7 @@ class ModLanguage {
       es: "Aura Asesina[F9]",
       id: "Aura Membunuh [F9]",
       vi: "Tàn Sát [F9]",
+      ptbr: "Kill aura [F9]",
     },
     {
       Text: "TEXT_PERCEPTION_RANGE",
@@ -131,6 +143,7 @@ class ModLanguage {
       es: "Rango de Percepción[F10]",
       id: "Jarak Penglihatan [F10]",
       vi: "Tương Tác Từ Xa [F10]",
+      ptbr: "Distancia de percepção [F10]",
     },
     {
       Text: "TEXT_NO_COOLDOWN",
@@ -140,6 +153,7 @@ class ModLanguage {
       es: "Sin Enfriamiento[F11]",
       id: "Tanpa Cooldown [F11]",
       vi: "Không Thời Gian Hồi Chiêu [F11]",
+      ptbr: "Sem Cooldown [F11]",
     },
     {
       Text: "TEXT_PLAYER_SPEED",
@@ -149,6 +163,7 @@ class ModLanguage {
       es: "Velocidad del Jugador[F12]",
       id: "Kecepatan Pemain [F12]",
       vi: "Tốc độ nhân vật [F12]",
+      ptbr: "Velocidade do jogador [F12]",
     },
     {
       Text: "TEXT_CUSTOM_TP",
@@ -158,6 +173,7 @@ class ModLanguage {
       es: "Teleportación Personalizada[INS]",
       id: "Teleportasi Kustom [INS]",
       vi: "Dịch Chuyển Tùy Chỉnh [INS]",
+      ptbr: "Teleporte custom [INS]",
     },
     {
       Text: "TEXT_AUTO_LOOT",
@@ -167,6 +183,7 @@ class ModLanguage {
       es: "Auto Botín[Num0]",
       id: "Loot Otomatis [Num0]",
       vi: "Tự Động Nhặt [Num0]",
+      ptbr: "Auto Loot [Num0]",
     },
     {
       Text: "TEXT_CUSTOM_TP_STATE",
@@ -176,6 +193,7 @@ class ModLanguage {
       es: "Estado de Teleportación Personalizada [Insert]:",
       id: "Status Teleportasi Kustom [Insert]:",
       vi: "Trạng thái dịch chuyển [Insert]:",
+      ptbr: "Estado do Teleport Custom [Insert]",
     },
     {
       Text: "TEXT_SHOW_DEL",
@@ -185,6 +203,7 @@ class ModLanguage {
       es: " Mostrar [Del]",
       id: "Tampilkan [Del]",
       vi: " Hiện [Del]",
+      ptbr: " Mostrar [Del]",
     },
     {
       Text: "TEXT_CURR_FILE",
@@ -194,6 +213,7 @@ class ModLanguage {
       es: "Archivo Actual:",
       id: "File Saat Ini:",
       vi: "File Hiện Tại:",
+      ptbr: "Arquivo atual:",
     },
     {
       Text: "TEXT_PREV_FILE",
@@ -203,6 +223,7 @@ class ModLanguage {
       es: "| Archivo Anterior[PageUp]:",
       id: "| File Sebelumnya[PageUp]:",
       vi: "| FileTrước[PageUp]:",
+      ptbr: "| Arquivo Anterior[PageUp]",
     },
     {
       Text: "TEXT_NEXT_FILE",
@@ -212,6 +233,7 @@ class ModLanguage {
       es: " | Archivo Siguiente[PageDown]:",
       id: " | File Berikutnya[PageDown]:",
       vi: " | FileKế[PageDown]:",
+      ptbr: " | Próximo arquivo[PageDown]",
     },
     {
       Text: "TEXT_PREV_POS",
@@ -221,6 +243,7 @@ class ModLanguage {
       es: " | Posición Anterior[Up]:",
       id: " | Posisi Sebelumnya[Up]:",
       vi: " | VịTríTrước[Up]:",
+      ptbr: " | Posição anterior[Up]:",
     },
     {
       Text: "TEXT_NEXT_POS",
@@ -230,6 +253,7 @@ class ModLanguage {
       es: " | Posición Siguiente[Down]:",
       id: " | Posisi Berikutnya[Down]:",
       vi: " | VịTríKế[Down]:",
+      ptbr: " | Próxima posição[Down]:",
     },
     {
       Text: "TEXT_ANTI_DITHER",
@@ -239,6 +263,7 @@ class ModLanguage {
       es: "Anti Dither",
       id: "Anti Dither",
       vi: "Chống làm mờ nhân vật",
+      ptbr: "Anti Dither",
     },
     {
       Text: "TEXT_SET_DELAY_LEFT",
@@ -248,6 +273,7 @@ class ModLanguage {
       es: " | Establecer Retraso[Izquierda]: ",
       id: " | AturJeda[Kiri]: ",
       vi: " | ĐặtĐộTrễ[Left]: ",
+      ptbr: " | Escolher Delay[Left]:",
     },
     {
       Text: "TEXT_SELECT_RIGHT",
@@ -257,6 +283,7 @@ class ModLanguage {
       es: " | Seleccionar[Derecha]: ",
       id: " | Pilih[Right]: ",
       vi: " | Chọn[Right]: ",
+      ptbr: " | Selecionar[Right]: ",
     },
     {
       Text: "TEXT_IS_LAST_FILE",
@@ -266,6 +293,7 @@ class ModLanguage {
       es: "es el último archivo",
       id: "adalah file terakhir",
       vi: "là file cuối cùng",
+      ptbr: "é o último arquivo",
     },
     {
       Text: "TEXT_IS_FIRST_FILE",
@@ -275,6 +303,7 @@ class ModLanguage {
       es: "es el primer archivo",
       id: "adalah file pertama",
       vi: "là file đầu tiên",
+      ptbr: "é o primeiro arquivo",
     },
     {
       Text: "TEXT_IS_LAST_POS",
@@ -284,6 +313,7 @@ class ModLanguage {
       es: "es la última posición",
       id: "adalah pos terakhir",
       vi: "là vị trí cuối cùng",
+      ptbr: "é a última posição",
     },
     {
       Text: "TEXT_IS_FIRST_POS",
@@ -293,6 +323,7 @@ class ModLanguage {
       es: "es la primera posición",
       id: "adalah pos pertama",
       vi: "là vị trí đầu tiên",
+      ptbr: "é a primeira posição",
     },
     {
       Text: "TEXT_CUSTOM_TP_AUTO_MODE_SET_DELAY",
@@ -302,6 +333,7 @@ class ModLanguage {
       es: "CustomTp:AutoMode:Establecer Retraso",
       id: "KustomTp:ModeOtomatis:Set Jeda",
       vi: "DịchChuyểnTùyChỉnh:TựĐộng:Đặt độ trễ",
+      ptbr: "CustomTp:ModoAuto:Escolher Delay",
     },
     {
       Text: "TEXT_ENTER_DELAY",
@@ -311,6 +343,7 @@ class ModLanguage {
       es: "Por favor, introduzca el retraso(s)",
       id: "Silakan masukkan Jeda(detik)",
       vi: "Hãy nhập độ trễ(s)",
+      ptbr: "Por favor, indique o atraso",
     },
     {
       Text: "TEXT_SECONDS",
@@ -320,6 +353,7 @@ class ModLanguage {
       es: "segundos",
       id: "detik",
       vi: "giây",
+      ptbr: "segundos",
     },
     {
       Text: "TEXT_GO",
@@ -329,6 +363,7 @@ class ModLanguage {
       es: "Ir",
       id: "Pergi",
       vi: "Đi",
+      ptbr: "Ir",
     },
     {
       Text: "TEXT_AUTO_MODE",
@@ -338,6 +373,7 @@ class ModLanguage {
       es: "Modo Automático",
       id: "ModeOtomatis",
       vi: "TựĐộng",
+      ptbr: "Modo Automático",
     },
     {
       Text: "TEXT_CUSTOM_TP_CURR_POS_SELECT",
@@ -347,6 +383,7 @@ class ModLanguage {
       es: "CustomTp:Posición Actual:Seleccionar",
       id: "KustomTp:PosSaatIni:Pilih",
       vi: "DịchChuyểnTùyChỉnh:VịTríHiệnTại:Chọn",
+      ptbr: "CustomTp:Posição Atual:Selecionar",
     },
     {
       Text: "TEXT_ENTER_CURR_NUM",
@@ -356,6 +393,7 @@ class ModLanguage {
       es: "Por favor, introduzca el número actual",
       id: "Silakan masukkan NomorSaatIni",
       vi: "Xin vui lòng nhập vị tri",
+      ptbr: "Por favor, coloque o número atual",
     },
     {
       Text: "TEXT_AUTO_MODE_END",
@@ -365,6 +403,7 @@ class ModLanguage {
       es: " | Modo Automático[End]: ",
       id: " | ModeOtomatis[Akhir]: ",
       vi: " | TựĐộng[End]: ",
+      ptbr: " | Modo Automático[End]: ",
     },
     {
       Text: "TEXT_INFINITE_STAMINA",
@@ -374,6 +413,7 @@ class ModLanguage {
       es: "Estamina Infinita",
       id: "Stamina Tak Terbatas",
       vi: "Vô hạn năng lượng",
+      ptbr: "Energia infinita",
     },
     {
       Text: "TEXT_CUSTOM_UID",
@@ -383,6 +423,7 @@ class ModLanguage {
       es: "UID Personalizado",
       id: "UID Kustom",
       vi: "UID Tùy Chỉnh",
+      ptbr: "UID personalizado",
     },
     {
       Text: "HEADING_PLAYER",
@@ -392,6 +433,7 @@ class ModLanguage {
       es: "Jugador",
       id: "Pemain",
       vi: "Người chơi",
+      ptbr: "Jogador",
     },
     {
       Text: "HEADING_WORLD",
@@ -401,6 +443,7 @@ class ModLanguage {
       es: "Mundo",
       id: "Dunia",
       vi: "Thế giới",
+      ptbr: "Mundo",
     },
     {
       Text: "HEADING_VISUAL",
@@ -410,6 +453,7 @@ class ModLanguage {
       es: "Visual",
       id: "Visual",
       vi: "Thị giác",
+      ptbr: "Visual",
     },
     {
       Text: "TEXT_HIDE_HUD",
@@ -419,6 +463,7 @@ class ModLanguage {
       es: "Ocultar Interfaz",
       id: "Sembunyikan HUD",
       vi: "Ẩn HUB",
+      ptbr: "Esconder interface",
     },
     {
       Text: "TEXT_HIDE_DAMAGE_TEXT",
@@ -428,15 +473,17 @@ class ModLanguage {
       es: "Ocultar Texto de Daño",
       id: "Sembunyikan Teks Kerusakan",
       vi: "Không hiện sát thương",
+      ptbr: "Desativar texto de dano",
     },
     {
       Text: "TEXT_MARK_TELEPORT",
       en: "Mark Teleport [T]",
       chs: "标记传送[T]",
       ja: "マークテレポート[T]",
-      es: "Marcar teletransporte",
+      es: "Marcar teletransporte [T]",
       id: "Tandai Teleport [T]",
       vi: "Đánh dấu để dịch chuyển [T]",
+      ptbr: "Marcar Teleporte [T]",
     },
     {
       Text: "TEXT_ONLY_HATE",
@@ -446,6 +493,7 @@ class ModLanguage {
       es: "Solo Odio",
       id: "Hanya Kebencian",
       vi: "Chỉ xung quanh",
+      ptbr: "Apenas raiva",
     },
     {
       Text: "TEXT_INFINITY",
@@ -455,6 +503,7 @@ class ModLanguage {
       es: "Infinito",
       id: "Tak Terbatas",
       vi: "Vô hạn",
+      ptbr: "Infinito",
     },
     {
       Text: "HEADING_TELEPORT",
@@ -464,6 +513,7 @@ class ModLanguage {
       es: "Teletransporte",
       id: "Teleport",
       vi: "Dịch chuyển",
+      ptbr: "Teletransporte",
     },
     {
       Text: "HEADING_DEBUG",
@@ -473,6 +523,7 @@ class ModLanguage {
       es: "Depurar",
       id: "Debug",
       vi: "Gỡ lỗi",
+      ptbr: "Debug",
     },
     {
       Text: "TEXT_DEBUG_ENTITY",
@@ -482,6 +533,7 @@ class ModLanguage {
       es: "Depurar Entidad",
       id: "Entitas Debug",
       vi: "Gỡ lỗi Entity",
+      ptbr: "Depurar entidade",
     },
     {
       Text: "TEXT_AUTO_DESTROY",
@@ -491,6 +543,7 @@ class ModLanguage {
       es: "Auto Destruir",
       id: "Hancurkan Otomatis",
       vi: "Tự động phá hủy",
+      ptbr: "Auto destruir",
     },
 
     {
@@ -501,6 +554,7 @@ class ModLanguage {
       es: "Este hack es completamente gratuito, si pagaste por obtenerlo, has sido estafado.",
       id: "Hack ini sepenuhnya gratis, jika Anda membayar untuk mendapatkan ini, Anda telah tertipu.",
       vi: "Bản hack này hoàn toàn miễn phí, nếu bạn đã mua nó từ ai, bạn đã bị lừa đảo.",
+      ptbr: "Este hack é completamente grátis, se você pagou por ele, você foi scammado.",
     },
     {
       Text: "TEXT_DESIGNER",
@@ -510,6 +564,7 @@ class ModLanguage {
       es: "Diseñador de GUI: n0bu",
       id: "Perancang GUI: n0bu",
       vi: "Thiết kế GUI: n0bu",
+      ptbr: "Designer da GUI: n0bu",
     },
     {
       Text: "TEXT_NEW_KILL_AURA",
@@ -519,6 +574,7 @@ class ModLanguage {
       es: "Nueva Aura Asesina",
       id: "Aura Pembunuh Baru",
       vi: "Tàn Sát Phiên Bản Mới",
+      ptbr: "Novo Kill Aura",
     },
     {
       Text: "TEXT_WORLD_SPEED",
@@ -528,6 +584,7 @@ class ModLanguage {
       es: "Velocidad del Mundo",
       id: "Kecepatan Dunia",
       vi: "Tốc Độ Thế Giới",
+      ptbr: "Velocidade do mundo",
     },
     {
       Text: "TEXT_KILL_ANIMAL",
@@ -535,6 +592,7 @@ class ModLanguage {
       chs: "杀死动物",
       ja: "動物を殺す",
       es: "Matar Animal",
+      ptbr: "Matar animal",
     },
     {
       Text: "TEXT_SAVE_CONFIG",
@@ -542,6 +600,7 @@ class ModLanguage {
       chs: "保存配置",
       ja: "設定を保存",
       es: "Guardar Configuración",
+      ptbr: "Salvar config",
     },
     {
       Text: "TEXT_AUTO_DESTROY",
@@ -549,6 +608,7 @@ class ModLanguage {
       chs: "自动销毁[Num1]",
       ja: "Auto Destroy [Num1]",
       es: "Auto Destruir [Num1]",
+      ptbr: "Destruir automáticamente [Num1]",
     },
     {
       Text: "TEXT_LANGUAGE",
@@ -556,6 +616,7 @@ class ModLanguage {
       chs: "语言",
       ja: "言語",
       es: "Idioma",
+      ptbr: "Idioma",
     },
     {
       Text: "TEXT_CONSOLE_COMMAND",
@@ -563,6 +624,7 @@ class ModLanguage {
       chs: "虚幻控制台命令",
       ja: "コンソールコマンド",
       es: "Consola de comandos",
+      ptbr: "Console de comandos",
     },
     {
       Text: "TEXT_FOV",
@@ -570,6 +632,7 @@ class ModLanguage {
       chs: "FOV",
       ja: "視野角",
       es: "FOV",
+      ptbr: "FOV",
     },
     {
       Text: "TEXT_SHOW_FPS",
@@ -577,6 +640,7 @@ class ModLanguage {
       chs: "显示FPS",
       ja: "FPSを表示",
       es: "Mostrar FPS",
+      ptbr: "Mostrar FPS",
     },
     {
       Text: "TEXT_FPS_UNLOCKER",
@@ -584,6 +648,7 @@ class ModLanguage {
       chs: "FPS解锁",
       ja: "FPSアンロック",
       es: "Desbloqueador de FPS",
+      ptbr: "Desbloquear FPS",
     },
     {
       Text: "TEXT_SONANCE_CASKET",
@@ -591,6 +656,7 @@ class ModLanguage {
       chs: "声匣",
       ja: "ソナンスカスケット",
       es: "Caja de Sonancia",
+      ptbr: "Sonance Casket",
     },
     {
       Text: "TEXT_PUZZLE",
@@ -605,6 +671,7 @@ class ModLanguage {
       chs: "动物",
       ja: "動物",
       es: "Animal",
+      ptbr: "Animal",
     },
     {
       Text: "TEXT_TREASURE",
@@ -612,6 +679,7 @@ class ModLanguage {
       chs: "箱子",
       ja: "宝物",
       es: "Tesoro",
+      ptbr: "Tesouro",
     },
     {
       Text: "TEXT_COLLECTION",
@@ -619,6 +687,7 @@ class ModLanguage {
       chs: "收集品",
       ja: "コレクション",
       es: "Colección",
+      ptbr: "Coleção",
     },
     {
       Text: "TEXT_MONSTER",
@@ -626,6 +695,7 @@ class ModLanguage {
       chs: "怪物",
       ja: "モンスター",
       es: "Monstruo",
+      ptbr: "Monstro",
     },
     {
       Text: "TEXT_SHOW_BOX",
@@ -633,6 +703,7 @@ class ModLanguage {
       chs: "展示方框",
       ja: "表示ボックス",
       es: "Mostrar Caja",
+      ptbr: "Mostrar caixa",
     },
     {
       Text: "TEXT_SHOW_DISTANCE",
@@ -640,6 +711,7 @@ class ModLanguage {
       chs: "显示距离",
       ja: "距離を表示します",
       es: "Mostrar Distancia",
+      ptbr: "Mostrar distância",
     },
     {
       Text: "TEXT_SHOW_NAME",
@@ -647,6 +719,7 @@ class ModLanguage {
       chs: "显示名称",
       ja: "ショー名",
       es: "Mostrar Nombre",
+      ptbr: "Mostrar nome",
     },
     {
       Text: "HEADING_ESP",
@@ -654,6 +727,7 @@ class ModLanguage {
       chs: "透视",
       ja: "ESP",
       es: "ESP",
+      ptbr: "ESP",
     },
     {
       Text: "TEXT_WEATHER",
@@ -661,6 +735,7 @@ class ModLanguage {
       chs: "天气",
       ja: "天気",
       es: "Clima",
+      ptbr: "Clima",
     },
     {
       Text: "TEXT_VACUUM_COLLECT",
@@ -668,6 +743,7 @@ class ModLanguage {
       chs: "吸收集品",
       ja: "Vacuum Collect",
       es: "Vacuum Collect",
+      ptbr: "Puxar Coleta",
     },
     {
       Text: "TEXT_MOB_VACUUM",
@@ -675,6 +751,7 @@ class ModLanguage {
       chs: "吸怪",
       ja: "Monster Vacuum",
       es: "Monster Vacuum",
+      ptbr: "Puxar Monstros",
     },
     {
       Text: "HEADING_FILTER",
@@ -682,6 +759,7 @@ class ModLanguage {
       chs: "筛选",
       ja: "フィルター",
       es: "Filtro",
+      ptbr: "Filtro",
     },
     {
       Text: "TEXT_SUNNY",
@@ -689,6 +767,7 @@ class ModLanguage {
       chs: "晴天",
       ja: "晴れ",
       es: "Soleado",
+      ptbr: "Ensolarado",
     },
     {
       Text: "TEXT_CLOUDY",
@@ -696,6 +775,7 @@ class ModLanguage {
       chs: "多云的",
       ja: "曇り",
       es: "Nublado",
+      ptbr: "Nublado",
     },
     {
       Text: "TEXT_THUNDER_RAIN",
@@ -703,6 +783,7 @@ class ModLanguage {
       chs: "雷雨",
       ja: "雷雨",
       es: "Tormenta",
+      ptbr: "Trovoada",
     },
     {
       Text: "TEXT_SNOW",
@@ -710,6 +791,7 @@ class ModLanguage {
       chs: "雪",
       ja: "雪",
       es: "Nieve",
+      ptbr: "Neve",
     },
     {
       Text: "TEXT_RAIN",
@@ -717,6 +799,7 @@ class ModLanguage {
       chs: "雨",
       ja: "雨",
       es: "Lluvia",
+      ptbr: "Chuva",
     },
   ];
 
