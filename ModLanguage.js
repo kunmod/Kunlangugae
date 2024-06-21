@@ -8,7 +8,6 @@ const puerts_1 = require("puerts"),
   ModManager_1 = require("../ModManager"),
   LanguageSystem_1 = require("../../../Core/Common/LanguageSystem");
 
-
 class ModLanguage {
   static GetCurrLang() {
     switch (ModManager_1.ModManager.Settings.Language) {
@@ -24,12 +23,14 @@ class ModLanguage {
         return "id";
       case "Vietnamese":
         return "vi";
+      case "한국어":
+        return "ko";
       default:
         return "en";
     }
   }
 
-  static Langs = ["English", "简体中文", "日本語", "Español", "Indonesia", "Vietnamese"];
+  static Langs = ["English", "简体中文", "日本語", "Español", "Indonesia", "Vietnamese", "한국어"];
 
   static translate = [
     {
@@ -40,6 +41,7 @@ class ModLanguage {
       es: "Teleportación Personalizada[Ins]",
       id: "TpKustom[Ins]",
       vi: "DịchChuyểnTùyChỉnh[Ins]",
+      ko: "커스텀 텔레포트트[Ins]",
     },
 
     {
@@ -50,6 +52,7 @@ class ModLanguage {
       es: " : <color=green>ACTIVO</color> |",
       id: " : <color=green>ON</color> |",
       vi: " : <color=green>BẬT</color> |",
+      ko: " : <color=green>켜짐</color> |",
     },
     {
       Text: "COLOR_OFF",
@@ -59,6 +62,7 @@ class ModLanguage {
       es: " : <color=red>DESACTIVADO</color> |",
       id: " : <color=red>OFF</color> |",
       vi: " : <color=red>TẮT</color> |",
+      ko: " : <color=red>꺼짐</color> |",
     },
     {
       Text: "TEXT_ON",
@@ -68,6 +72,7 @@ class ModLanguage {
       es: "ACTIVO",
       id: "ON",
       vi: "Bật",
+      ko: "켜짐",
     },
     {
       Text: "TEXT_OFF",
@@ -77,6 +82,7 @@ class ModLanguage {
       es: "DESACTIVADO",
       id: "OFF",
       vi: "TẮT",
+      ko: "꺼짐",
     },
     {
       Text: "TEXT_GOD_MODE",
@@ -86,6 +92,7 @@ class ModLanguage {
       es: "Modo Dios[F5]",
       id: "ModeDewa[F5]",
       vi: "Bất Tử [F5]",
+      ko: "무적[F5]",
     },
     {
       Text: "TEXT_HIT_MULTIPLIER",
@@ -95,6 +102,7 @@ class ModLanguage {
       es: "Golpe Multiplicador[F6]",
       id: "PengaliHit[F6]",
       vi: "Số Lượng Đòn Đánh [F6]",
+      ko: "타격 배수[F6]",
     },
     {
       Text: "TEXT_AUTO_PICK_TREASURE",
@@ -104,6 +112,7 @@ class ModLanguage {
       es: "Auto Recoger Tesoro[F7]",
       id: "AmbilHartaOtomatis[F7]",
       vi: "Tự Động Nhặt Phần Thưởng[F7]",
+      ko: "보물상자 자동 해제[F7]",
     },
     {
       Text: "TEXT_AUTO_ABSORB",
@@ -113,6 +122,7 @@ class ModLanguage {
       es: "Auto Absorber[F8]",
       id: "SerapOtomatis[F8]",
       vi: "Tự Động Hấp Thụ Echo[F8]",
+      ko: "자동 흡수[F8]",
     },
     {
       Text: "TEXT_KILL_AURA",
@@ -122,6 +132,7 @@ class ModLanguage {
       es: "Aura Asesina[F9]",
       id: "Aura Membunuh [F9]",
       vi: "Tàn Sát [F9]",
+      ko: "킬 오라[F9]",
     },
     {
       Text: "TEXT_PERCEPTION_RANGE",
@@ -131,6 +142,7 @@ class ModLanguage {
       es: "Rango de Percepción[F10]",
       id: "Jarak Penglihatan [F10]",
       vi: "Tương Tác Từ Xa [F10]",
+      ko: "인지 범위 확장[F10]",
     },
     {
       Text: "TEXT_NO_COOLDOWN",
@@ -140,6 +152,7 @@ class ModLanguage {
       es: "Sin Enfriamiento[F11]",
       id: "Tanpa Cooldown [F11]",
       vi: "Không Thời Gian Hồi Chiêu [F11]",
+      ko: "쿨다운 없음[F11]",
     },
     {
       Text: "TEXT_PLAYER_SPEED",
@@ -149,6 +162,7 @@ class ModLanguage {
       es: "Velocidad del Jugador[F12]",
       id: "Kecepatan Pemain [F12]",
       vi: "Tốc độ nhân vật [F12]",
+      ko: "플레이어 속도[F12]",
     },
     {
       Text: "TEXT_CUSTOM_TP",
@@ -158,6 +172,7 @@ class ModLanguage {
       es: "Teleportación Personalizada[INS]",
       id: "Teleportasi Kustom [INS]",
       vi: "Dịch Chuyển Tùy Chỉnh [INS]",
+      ko: "커스텀 텔레포트[INS]",
     },
     {
       Text: "TEXT_AUTO_LOOT",
@@ -167,6 +182,7 @@ class ModLanguage {
       es: "Auto Botín[Num0]",
       id: "Loot Otomatis [Num0]",
       vi: "Tự Động Nhặt [Num0]",
+      ko: "자동 파밍[Num0]",
     },
     {
       Text: "TEXT_CUSTOM_TP_STATE",
@@ -176,6 +192,7 @@ class ModLanguage {
       es: "Estado de Teleportación Personalizada [Insert]:",
       id: "Status Teleportasi Kustom [Insert]:",
       vi: "Trạng thái dịch chuyển [Insert]:",
+      ko: "커스텀 텔레포트 상태[Insert]:",
     },
     {
       Text: "TEXT_SHOW_DEL",
@@ -185,6 +202,7 @@ class ModLanguage {
       es: " Mostrar [Del]",
       id: "Tampilkan [Del]",
       vi: " Hiện [Del]",
+      ko: " 표시[Del]",
     },
     {
       Text: "TEXT_CURR_FILE",
@@ -194,6 +212,7 @@ class ModLanguage {
       es: "Archivo Actual:",
       id: "File Saat Ini:",
       vi: "File Hiện Tại:",
+      ko: "현재 파일:",
     },
     {
       Text: "TEXT_PREV_FILE",
@@ -203,6 +222,7 @@ class ModLanguage {
       es: "| Archivo Anterior[PageUp]:",
       id: "| File Sebelumnya[PageUp]:",
       vi: "| FileTrước[PageUp]:",
+      ko: "| 이전 파일[PageUp]:",
     },
     {
       Text: "TEXT_NEXT_FILE",
@@ -212,6 +232,7 @@ class ModLanguage {
       es: " | Archivo Siguiente[PageDown]:",
       id: " | File Berikutnya[PageDown]:",
       vi: " | FileKế[PageDown]:",
+      ko: " | 다음 파일[PageDown]:",
     },
     {
       Text: "TEXT_PREV_POS",
@@ -221,6 +242,7 @@ class ModLanguage {
       es: " | Posición Anterior[Up]:",
       id: " | Posisi Sebelumnya[Up]:",
       vi: " | VịTríTrước[Up]:",
+      ko: " | 이전 위치[Up]:",
     },
     {
       Text: "TEXT_NEXT_POS",
@@ -230,6 +252,7 @@ class ModLanguage {
       es: " | Posición Siguiente[Down]:",
       id: " | Posisi Berikutnya[Down]:",
       vi: " | VịTríKế[Down]:",
+      ko: " | 다음 위치[Down]:",
     },
     {
       Text: "TEXT_ANTI_DITHER",
@@ -239,6 +262,7 @@ class ModLanguage {
       es: "Anti Dither",
       id: "Anti Dither",
       vi: "Chống làm mờ nhân vật",
+      ko: "디더링 제거거",
     },
     {
       Text: "TEXT_SET_DELAY_LEFT",
@@ -248,6 +272,7 @@ class ModLanguage {
       es: " | Establecer Retraso[Izquierda]: ",
       id: " | AturJeda[Kiri]: ",
       vi: " | ĐặtĐộTrễ[Left]: ",
+      ko: " | 딜레이이 설정[Left]: ",
     },
     {
       Text: "TEXT_SELECT_RIGHT",
@@ -257,6 +282,7 @@ class ModLanguage {
       es: " | Seleccionar[Derecha]: ",
       id: " | Pilih[Right]: ",
       vi: " | Chọn[Right]: ",
+      ko: " | 선택[Right]: ",
     },
     {
       Text: "TEXT_IS_LAST_FILE",
@@ -266,6 +292,7 @@ class ModLanguage {
       es: "es el último archivo",
       id: "adalah file terakhir",
       vi: "là file cuối cùng",
+      ko: "마지막 파일입니다",
     },
     {
       Text: "TEXT_IS_FIRST_FILE",
@@ -275,6 +302,7 @@ class ModLanguage {
       es: "es el primer archivo",
       id: "adalah file pertama",
       vi: "là file đầu tiên",
+      ko: "첫 번째 파일입니다",
     },
     {
       Text: "TEXT_IS_LAST_POS",
@@ -284,6 +312,7 @@ class ModLanguage {
       es: "es la última posición",
       id: "adalah pos terakhir",
       vi: "là vị trí cuối cùng",
+      ko: "마지막 위치입니다",
     },
     {
       Text: "TEXT_IS_FIRST_POS",
@@ -293,6 +322,7 @@ class ModLanguage {
       es: "es la primera posición",
       id: "adalah pos pertama",
       vi: "là vị trí đầu tiên",
+      ko: "첫 번째 위치입니다",
     },
     {
       Text: "TEXT_CUSTOM_TP_AUTO_MODE_SET_DELAY",
@@ -302,6 +332,7 @@ class ModLanguage {
       es: "CustomTp:AutoMode:Establecer Retraso",
       id: "KustomTp:ModeOtomatis:Set Jeda",
       vi: "DịchChuyểnTùyChỉnh:TựĐộng:Đặt độ trễ",
+      ko: "커스텀 텔레포트:자동 모드:딜레이 설정",
     },
     {
       Text: "TEXT_ENTER_DELAY",
@@ -311,6 +342,7 @@ class ModLanguage {
       es: "Por favor, introduzca el retraso(s)",
       id: "Silakan masukkan Jeda(detik)",
       vi: "Hãy nhập độ trễ(s)",
+      ko: "딜레이이 시간을 입력하세요",
     },
     {
       Text: "TEXT_SECONDS",
@@ -320,6 +352,7 @@ class ModLanguage {
       es: "segundos",
       id: "detik",
       vi: "giây",
+      ko: "초",
     },
     {
       Text: "TEXT_GO",
@@ -329,6 +362,7 @@ class ModLanguage {
       es: "Ir",
       id: "Pergi",
       vi: "Đi",
+      ko: "시작",
     },
     {
       Text: "TEXT_AUTO_MODE",
@@ -338,6 +372,7 @@ class ModLanguage {
       es: "Modo Automático",
       id: "ModeOtomatis",
       vi: "TựĐộng",
+      ko: "자동 모드",
     },
     {
       Text: "TEXT_CUSTOM_TP_CURR_POS_SELECT",
@@ -347,6 +382,7 @@ class ModLanguage {
       es: "CustomTp:Posición Actual:Seleccionar",
       id: "KustomTp:PosSaatIni:Pilih",
       vi: "DịchChuyểnTùyChỉnh:VịTríHiệnTại:Chọn",
+      ko: "커스텀 텔레포트트:현재 위치:선택",
     },
     {
       Text: "TEXT_ENTER_CURR_NUM",
@@ -356,6 +392,7 @@ class ModLanguage {
       es: "Por favor, introduzca el número actual",
       id: "Silakan masukkan NomorSaatIni",
       vi: "Xin vui lòng nhập vị tri",
+      ko: "현재 번호를 입력하세요",
     },
     {
       Text: "TEXT_AUTO_MODE_END",
@@ -365,6 +402,7 @@ class ModLanguage {
       es: " | Modo Automático[End]: ",
       id: " | ModeOtomatis[Akhir]: ",
       vi: " | TựĐộng[End]: ",
+      ko: " | 자동 모드[End]: ",
     },
     {
       Text: "TEXT_INFINITE_STAMINA",
@@ -374,6 +412,7 @@ class ModLanguage {
       es: "Estamina Infinita",
       id: "Stamina Tak Terbatas",
       vi: "Vô hạn năng lượng",
+      ko: "무한 체력",
     },
     {
       Text: "TEXT_CUSTOM_UID",
@@ -383,6 +422,7 @@ class ModLanguage {
       es: "UID Personalizado",
       id: "UID Kustom",
       vi: "UID Tùy Chỉnh",
+      ko: "커스텀텀 UID",
     },
     {
       Text: "HEADING_PLAYER",
@@ -392,6 +432,7 @@ class ModLanguage {
       es: "Jugador",
       id: "Pemain",
       vi: "Người chơi",
+      ko: "플레이어",
     },
     {
       Text: "HEADING_WORLD",
@@ -401,6 +442,7 @@ class ModLanguage {
       es: "Mundo",
       id: "Dunia",
       vi: "Thế giới",
+      ko: "월드",
     },
     {
       Text: "HEADING_VISUAL",
@@ -410,6 +452,7 @@ class ModLanguage {
       es: "Visual",
       id: "Visual",
       vi: "Thị giác",
+      ko: "시각",
     },
     {
       Text: "TEXT_HIDE_HUD",
@@ -419,6 +462,7 @@ class ModLanguage {
       es: "Ocultar Interfaz",
       id: "Sembunyikan HUD",
       vi: "Ẩn HUB",
+      ko: "HUD 숨기기",
     },
     {
       Text: "TEXT_HIDE_DAMAGE_TEXT",
@@ -428,6 +472,7 @@ class ModLanguage {
       es: "Ocultar Texto de Daño",
       id: "Sembunyikan Teks Kerusakan",
       vi: "Không hiện sát thương",
+      ko: "데미지 숨기기",
     },
     {
       Text: "TEXT_MARK_TELEPORT",
@@ -437,6 +482,7 @@ class ModLanguage {
       es: "Marcar teletransporte",
       id: "Tandai Teleport [T]",
       vi: "Đánh dấu để dịch chuyển [T]",
+      ko: "마크 텔레포트[T]",
     },
     {
       Text: "TEXT_ONLY_HATE",
@@ -446,6 +492,7 @@ class ModLanguage {
       es: "Solo Odio",
       id: "Hanya Kebencian",
       vi: "Chỉ xung quanh",
+      ko: "어그로 적만 감지",
     },
     {
       Text: "TEXT_INFINITY",
@@ -455,6 +502,7 @@ class ModLanguage {
       es: "Infinito",
       id: "Tak Terbatas",
       vi: "Vô hạn",
+      ko: "무한",
     },
     {
       Text: "HEADING_TELEPORT",
@@ -464,6 +512,7 @@ class ModLanguage {
       es: "Teletransporte",
       id: "Teleport",
       vi: "Dịch chuyển",
+      ko: "텔레포트",
     },
     {
       Text: "HEADING_DEBUG",
@@ -473,6 +522,7 @@ class ModLanguage {
       es: "Depurar",
       id: "Debug",
       vi: "Gỡ lỗi",
+      ko: "디버그",
     },
     {
       Text: "TEXT_DEBUG_ENTITY",
@@ -482,6 +532,7 @@ class ModLanguage {
       es: "Depurar Entidad",
       id: "Entitas Debug",
       vi: "Gỡ lỗi Entity",
+      ko: "엔티티 디버그",
     },
     {
       Text: "TEXT_AUTO_DESTROY",
@@ -491,6 +542,7 @@ class ModLanguage {
       es: "Auto Destruir",
       id: "Hancurkan Otomatis",
       vi: "Tự động phá hủy",
+      ko: "자동 파괴",
     },
 
     {
@@ -501,6 +553,7 @@ class ModLanguage {
       es: "Este hack es completamente gratuito, si pagaste por obtenerlo, has sido estafado.",
       id: "Hack ini sepenuhnya gratis, jika Anda membayar untuk mendapatkan ini, Anda telah tertipu.",
       vi: "Bản hack này hoàn toàn miễn phí, nếu bạn đã mua nó từ ai, bạn đã bị lừa đảo.",
+      ko: "이 해킹은 완전히 무료입니다. 돈을 주고 구입했다면 사기를 당한 것입니다.",
     },
     {
       Text: "TEXT_DESIGNER",
@@ -510,6 +563,7 @@ class ModLanguage {
       es: "Diseñador de GUI: n0bu",
       id: "Perancang GUI: n0bu",
       vi: "Thiết kế GUI: n0bu",
+      ko: "GUI 디자이너: n0bu",
     },
     {
       Text: "TEXT_NEW_KILL_AURA",
@@ -519,6 +573,7 @@ class ModLanguage {
       es: "Nueva Aura Asesina",
       id: "Aura Pembunuh Baru",
       vi: "Tàn Sát Phiên Bản Mới",
+      ko: "새로운 킬 오라",
     },
     {
       Text: "TEXT_WORLD_SPEED",
@@ -528,6 +583,7 @@ class ModLanguage {
       es: "Velocidad del Mundo",
       id: "Kecepatan Dunia",
       vi: "Tốc Độ Thế Giới",
+      ko: "월드 속도",
     },
     {
       Text: "TEXT_KILL_ANIMAL",
@@ -535,6 +591,7 @@ class ModLanguage {
       chs: "杀死动物",
       ja: "動物を殺す",
       es: "Matar Animal",
+      ko: "동물 죽이기",
     },
     {
       Text: "TEXT_SAVE_CONFIG",
@@ -542,6 +599,7 @@ class ModLanguage {
       chs: "保存配置",
       ja: "設定を保存",
       es: "Guardar Configuración",
+      ko: "설정 저장",
     },
     {
       Text: "TEXT_AUTO_DESTROY",
@@ -549,6 +607,7 @@ class ModLanguage {
       chs: "自动销毁[Num1]",
       ja: "Auto Destroy [Num1]",
       es: "Auto Destruir [Num1]",
+      ko: "자동 파괴 [Num1]",
     },
     {
       Text: "TEXT_LANGUAGE",
@@ -556,6 +615,7 @@ class ModLanguage {
       chs: "语言",
       ja: "言語",
       es: "Idioma",
+      ko: "언어",
     },
     {
       Text: "TEXT_CONSOLE_COMMAND",
@@ -563,6 +623,7 @@ class ModLanguage {
       chs: "虚幻控制台命令",
       ja: "コンソールコマンド",
       es: "Consola de comandos",
+      ko: "콘솔 명령",
     },
     {
       Text: "TEXT_FOV",
@@ -570,6 +631,7 @@ class ModLanguage {
       chs: "FOV",
       ja: "視野角",
       es: "FOV",
+      ko: "시야각",
     },
     {
       Text: "TEXT_SHOW_FPS",
@@ -577,6 +639,7 @@ class ModLanguage {
       chs: "显示FPS",
       ja: "FPSを表示",
       es: "Mostrar FPS",
+      ko: "FPS 표시",
     },
     {
       Text: "TEXT_FPS_UNLOCKER",
@@ -584,6 +647,7 @@ class ModLanguage {
       chs: "FPS解锁",
       ja: "FPSアンロック",
       es: "Desbloqueador de FPS",
+      ko: "FPS 잠금 해제",
     },
     {
       Text: "TEXT_SONANCE_CASKET",
@@ -591,6 +655,7 @@ class ModLanguage {
       chs: "声匣",
       ja: "ソナンスカスケット",
       es: "Caja de Sonancia",
+      ko: "사운드 박스",
     },
     {
       Text: "TEXT_PUZZLE",
@@ -598,6 +663,7 @@ class ModLanguage {
       chs: "解谜",
       ja: "Puzzle",
       es: "Rompecabezas",
+      ko: "퍼즐",
     },
     {
       Text: "TEXT_ANIMAL",
@@ -605,6 +671,7 @@ class ModLanguage {
       chs: "动物",
       ja: "動物",
       es: "Animal",
+      ko: "동물",
     },
     {
       Text: "TEXT_TREASURE",
@@ -612,6 +679,7 @@ class ModLanguage {
       chs: "箱子",
       ja: "宝物",
       es: "Tesoro",
+      ko: "보물 상자자",
     },
     {
       Text: "TEXT_COLLECTION",
@@ -619,6 +687,7 @@ class ModLanguage {
       chs: "收集品",
       ja: "コレクション",
       es: "Colección",
+      ko: "수집품",
     },
     {
       Text: "TEXT_MONSTER",
@@ -626,6 +695,7 @@ class ModLanguage {
       chs: "怪物",
       ja: "モンスター",
       es: "Monstruo",
+      ko: "몬스터",
     },
     {
       Text: "TEXT_SHOW_BOX",
@@ -633,6 +703,7 @@ class ModLanguage {
       chs: "展示方框",
       ja: "表示ボックス",
       es: "Mostrar Caja",
+      ko: "상자자 표시",
     },
     {
       Text: "TEXT_SHOW_DISTANCE",
@@ -640,6 +711,7 @@ class ModLanguage {
       chs: "显示距离",
       ja: "距離を表示します",
       es: "Mostrar Distancia",
+      ko: "거리 표시",
     },
     {
       Text: "TEXT_SHOW_NAME",
@@ -647,6 +719,7 @@ class ModLanguage {
       chs: "显示名称",
       ja: "ショー名",
       es: "Mostrar Nombre",
+      ko: "이름 표시",
     },
     {
       Text: "HEADING_ESP",
@@ -654,6 +727,7 @@ class ModLanguage {
       chs: "透视",
       ja: "ESP",
       es: "ESP",
+      ko: "ESP",
     },
     {
       Text: "TEXT_WEATHER",
@@ -661,6 +735,7 @@ class ModLanguage {
       chs: "天气",
       ja: "天気",
       es: "Clima",
+      ko: "날씨",
     },
     {
       Text: "TEXT_VACUUM_COLLECT",
@@ -668,6 +743,7 @@ class ModLanguage {
       chs: "吸收集品",
       ja: "Vacuum Collect",
       es: "Vacuum Collect",
+      ko: "진공 몰이 수집",
     },
     {
       Text: "TEXT_MOB_VACUUM",
@@ -675,6 +751,7 @@ class ModLanguage {
       chs: "吸怪",
       ja: "Monster Vacuum",
       es: "Monster Vacuum",
+      ko: "몬스터 진공",
     },
     {
       Text: "HEADING_FILTER",
@@ -682,6 +759,7 @@ class ModLanguage {
       chs: "筛选",
       ja: "フィルター",
       es: "Filtro",
+      ko: "필터",
     },
     {
       Text: "TEXT_SUNNY",
@@ -689,6 +767,7 @@ class ModLanguage {
       chs: "晴天",
       ja: "晴れ",
       es: "Soleado",
+      ko: "맑음",
     },
     {
       Text: "TEXT_CLOUDY",
@@ -696,6 +775,7 @@ class ModLanguage {
       chs: "多云的",
       ja: "曇り",
       es: "Nublado",
+      ko: "흐림",
     },
     {
       Text: "TEXT_THUNDER_RAIN",
@@ -703,6 +783,7 @@ class ModLanguage {
       chs: "雷雨",
       ja: "雷雨",
       es: "Tormenta",
+      ko: "뇌우",
     },
     {
       Text: "TEXT_SNOW",
@@ -710,6 +791,7 @@ class ModLanguage {
       chs: "雪",
       ja: "雪",
       es: "Nieve",
+      ko: "눈",
     },
     {
       Text: "TEXT_RAIN",
@@ -717,6 +799,7 @@ class ModLanguage {
       chs: "雨",
       ja: "雨",
       es: "Lluvia",
+      ko: "비",
     },
   ];
 
