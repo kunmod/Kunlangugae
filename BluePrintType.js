@@ -7,16 +7,12 @@ const puerts_1 = require("puerts"),
   Log_1 = require("../../../Core/Common/Log"),
   ModManager_1 = require("../ModManager"),
   LanguageSystem_1 = require("../../../Core/Common/LanguageSystem");
-var CurrLang = "en";
+const { ModLanguage } = require("./ModLanguage");
 
-class BluePrintType {
-  static GetCurrLang() {
-    CurrLang = LanguageSystem_1.LanguageSystem.PackageLanguage;
-    return CurrLang;
-  }
 
-  static Langs = ["en", "zh-Hans", "ja", "es", "id"];
+class BluePrintType extends ModLanguage{
 
+ 
   static translate = [
     {
       BluePrint: "Collect001",
@@ -369,23 +365,13 @@ class BluePrintType {
   ];
 
   static ModTr = (string) => {
-    this.GetCurrLang();
-    //var lang = ModManager_1.ModManager.Settings.Language;
-    var lang =CurrLang;
-    var langMap = {
-      "en": "en",
-      "zh-Hans": "chs",
-      "ja": "ja",
-      "es": "es",
-      "id": "id"
-    };
-    for (let i = 0; i < BluePrintType.translate.length; i++) {
-      if (BluePrintType.translate[i].BluePrint === string) {
-        return BluePrintType.translate[i][langMap[lang]] || BluePrintType.translate[i].en;
-      }
+    const Find = BluePrintType.translate.find(t => t.BluePrint == string);
+    if (Find) {
+      return Find[this.GetCurrLang()] || Find.BluePrint;
+    } else {
+      return string; // return original string if no translation found
     }
-    return string; // return original string if no translation found
-};
+  };
 }
 
 exports.BluePrintType = BluePrintType;
