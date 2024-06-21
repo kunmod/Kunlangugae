@@ -41,7 +41,7 @@ class ModLanguage {
       es: "Teleportación Personalizada[Ins]",
       id: "TpKustom[Ins]",
       vi: "DịchChuyểnTùyChỉnh[Ins]",
-      ko: "커스텀 텔레포트트[Ins]",
+      ko: "커스텀 텔레포트[Ins]",
     },
 
     {
@@ -263,7 +263,7 @@ class ModLanguage {
       es: "Anti Dither",
       id: "Anti Dither",
       vi: "Chống làm mờ nhân vật",
-      ko: "디더링 제거거",
+      ko: "디더링 제거",
     },
     {
       Text: "TEXT_SET_DELAY_LEFT",
@@ -273,7 +273,7 @@ class ModLanguage {
       es: " | Establecer Retraso[Izquierda]: ",
       id: " | AturJeda[Kiri]: ",
       vi: " | ĐặtĐộTrễ[Left]: ",
-      ko: " | 딜레이이 설정[Left]: ",
+      ko: " | 딜레이 설정[Left]: ",
     },
     {
       Text: "TEXT_SELECT_RIGHT",
@@ -343,7 +343,7 @@ class ModLanguage {
       es: "Por favor, introduzca el retraso(s)",
       id: "Silakan masukkan Jeda(detik)",
       vi: "Hãy nhập độ trễ(s)",
-      ko: "딜레이이 시간을 입력하세요",
+      ko: "딜레이 시간을 입력하세요",
     },
     {
       Text: "TEXT_SECONDS",
@@ -383,7 +383,7 @@ class ModLanguage {
       es: "CustomTp:Posición Actual:Seleccionar",
       id: "KustomTp:PosSaatIni:Pilih",
       vi: "DịchChuyểnTùyChỉnh:VịTríHiệnTại:Chọn",
-      ko: "커스텀 텔레포트트:현재 위치:선택",
+      ko: "커스텀 텔레포트:현재 위치:선택",
     },
     {
       Text: "TEXT_ENTER_CURR_NUM",
@@ -423,7 +423,7 @@ class ModLanguage {
       es: "UID Personalizado",
       id: "UID Kustom",
       vi: "UID Tùy Chỉnh",
-      ko: "커스텀텀 UID",
+      ko: "커스텀 UID",
     },
     {
       Text: "HEADING_PLAYER",
@@ -554,7 +554,7 @@ class ModLanguage {
       es: "Este hack es completamente gratuito, si pagaste por obtenerlo, has sido estafado.",
       id: "Hack ini sepenuhnya gratis, jika Anda membayar untuk mendapatkan ini, Anda telah tertipu.",
       vi: "Bản hack này hoàn toàn miễn phí, nếu bạn phải trả tiền để mua nó, bạn đã bị lừa đảo.",
-      ko: "이 해킹은 완전히 무료입니다. 돈을 주고 구입했다면 사기를 당한 것입니다.",
+      ko: "이 치트는 완전히 무료입니다. 돈을 주고 구입했다면 사기를 당한 것입니다.",
     },
     {
       Text: "TEXT_DESIGNER",
@@ -633,7 +633,7 @@ class ModLanguage {
       ja: "コンソールコマンド",
       id: "Perintah Konsol",
       es: "Consola de comandos",
-      ko: "콘솔 명령",
+      ko: "콘솔 명령어",
       vi: "Console Command",
     },
     {
@@ -704,7 +704,7 @@ class ModLanguage {
       ja: "宝物",
       id: "Harta Karun",
       es: "Tesoro",
-      ko: "보물 상자자",
+      ko: "보물 상자",
       vi: "Phần Thưởng",
     },
     {
@@ -734,7 +734,7 @@ class ModLanguage {
       ja: "表示ボックス",
       id: "Tampilkan Kotak",
       es: "Mostrar Caja",
-      ko: "상자자 표시",
+      ko: "상자 표시",
       vi: "Hiện Box",
     },
     {
@@ -794,7 +794,7 @@ class ModLanguage {
       ja: "Monster Vacuum",
       id: "Vakum Monster",
       es: "Monster Vacuum",
-      ko: "몬스터 진공",
+      ko: "몬스터 진공 몰이",
       vi: "Hút Quái",
     },
     {
