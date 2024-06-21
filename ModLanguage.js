@@ -550,7 +550,7 @@ class ModLanguage {
       en: "Auto Destroy [Num1]",
       chs: "自动销毁[Num1]",
       ja: "Auto Destroy [Num1]",
-      id: "Hancur Otomatis [Num1]"
+      id: "Hancur Otomatis [Num1]",
       es: "Auto Destruir [Num1]",
     },
     {
