@@ -541,7 +541,7 @@ class ModLanguage {
       en: "Save Config",
       chs: "保存配置",
       ja: "設定を保存",
-      id: "Simpan Konfigurasi"
+      id: "Simpan Konfigurasi",
     },
     {
       Text: "TEXT_AUTO_DESTROY",
@@ -555,175 +555,175 @@ class ModLanguage {
       en: "Language",
       chs: "语言",
       ja: "言語",
-      id: "Bahasa"
+      id: "Bahasa",
     },
     {
       Text: "TEXT_CONSOLE_COMMAND",
       en: "Console Command",
       chs: "虚幻控制台命令",
       ja: "コンソールコマンド",
-      id: "Perintah Konsol"
+      id: "Perintah Konsol",
     },
     {
       Text: "TEXT_CONSOLE_COMMAND",
       en: "Console Command",
       chs: "控制台命令",
       ja: "コンソールコマンド",
-      id: "Perintah Konsol"
+      id: "Perintah Konsol",
     },
     {
       Text: "TEXT_FOV",
       en: "FOV",
       chs: "FOV",
       ja: "視野角",
-      id: "Sudut Pandang"
+      id: "Sudut Pandang",
     },
     {
       Text: "TEXT_SHOW_FPS",
       en: "Show FPS",
       chs: "显示FPS",
       ja: "FPSを表示",
-      id: "Tampilkan FPS"
+      id: "Tampilkan FPS",
     },
     {
       Text: "TEXT_FPS_UNLOCKER",
       en: "FPS Unlocker",
       chs: "FPS解锁",
       ja: "FPSアンロック",
-      id: "Pembuka Kunci FPS"
+      id: "Pembuka Kunci FPS",
     },
     {
       Text: "TEXT_SONANCE_CASKET",
       en: "Sonance Casket",
       chs: "声匣",
       ja: "ソナンスカスケット",
-      id: "Sonance Casket"
+      id: "Sonance Casket",
     },
     {
       Text: "TEXT_PUZZLE",
       en: "Puzzle",
       chs: "解谜",
       ja: "Puzzle",
-      id: "Teka-teki"
+      id: "Teka-teki",
     },
     {
       Text: "TEXT_ANIMAL",
       en: "Animal",
       chs: "动物",
       ja: "動物",
-      id: "Hewan"
+      id: "Hewan",
     },
     {
       Text: "TEXT_TREASURE",
       en: "Treasure",
       chs: "箱子",
       ja: "宝物",
-      id: "Harta Karun"
+      id: "Harta Karun",
     },
     {
       Text: "TEXT_COLLECTION",
       en: "Collection",
       chs: "收集品",
       ja: "コレクション",
-      id: "Koleksi"
+      id: "Koleksi",
     },
     {
       Text: "TEXT_MONSTER",
       en: "Monster",
       chs: "怪物",
       ja: "モンスター",
-      id: "Monster"
+      id: "Monster",
     },
     {
       Text: "TEXT_SHOW_BOX",
       en: "Show Box",
       chs: "展示方框",
       ja: "表示ボックス",
-      id: "Tampilkan Kotak"
+      id: "Tampilkan Kotak",
     },
     {
       Text: "TEXT_SHOW_DISTANCE",
       en: "Show Distance",
       chs: "显示距离",
       ja: "距離を表示します",
-      id: "Tampilkan Jarak"
+      id: "Tampilkan Jarak",
     },
     {
       Text: "TEXT_SHOW_NAME",
       en: "Show Name",
       chs: "显示名称",
       ja: "ショー名",
-      id: "Tampilkan Nama"
+      id: "Tampilkan Nama",
     },
     {
       Text: "HEADING_ESP",
       en: "ESP",
       chs: "透视",
       ja: "ESP",
-      id: "ESP"
+      id: "ESP",
     },
     {
       Text: "TEXT_WEATHER",
       en: "Weather",
       chs: "天气",
       ja: "天気",
-      id: "Cuaca"
+      id: "Cuaca",
     },
     {
       Text: "TEXT_VACUUM_COLLECT",
       en: "Vacuum Collect",
       chs: "吸收集品",
       ja: "Vacuum Collect",
-      id: "Vacuum Collect"
+      id: "Vacuum Collect",
     },
     {
       Text: "TEXT_MOB_VACUUM",
       en: "Monster Vacuum",
       chs: "吸怪",
       ja: "Monster Vacuum",
-      id: "Vakum Monster"
+      id: "Vakum Monster",
     },
     {
       Text: "HEADING_FILTER",
       en: "Filter",
       chs: "筛选",
       ja: "フィルター",
-      id: "Filter"
+      id: "Filter",
     },
     {
       Text: "TEXT_SUNNY",
       en: "Sunny",
       chs: "晴天",
       ja: "晴れ",
-      id: "Cerah"
+      id: "Cerah",
     },
     {
       Text: "TEXT_CLOUDY",
       en: "Cloudy",
       chs: "多云的",
       ja: "曇り",
-      id: "Berawan"
+      id: "Berawan",
     },
     {
       Text: "TEXT_THUNDER_RAIN",
       en: "Thunder Rain",
       chs: "雷雨",
       ja: "雷雨",
-      id: "Hujan Petir"
+      id: "Hujan Petir",
     },
     {
       Text: "TEXT_SNOW",
       en: "Snow",
       chs: "雪",
       ja: "雪",
-      id: "Salju"
+      id: "Salju",
     },
     {
       Text: "TEXT_RAIN",
       en: "Rain",
       chs: "雨",
       ja: "雨",
-      id: "Hujan"
+      id: "Hujan",
     },
     ];
     
