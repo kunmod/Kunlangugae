@@ -85,7 +85,7 @@ class ModLanguage {
       ja: "神モードやで[F5]",
       es: "Modo Dios[F5]",
       id: "ModeDewa[F5]",
-      vi: "Bất Tử [F5]",
+      vi: "Bất tử[F5]",
     },
     {
       Text: "TEXT_HIT_MULTIPLIER",
@@ -94,7 +94,7 @@ class ModLanguage {
       ja: "ヒット倍率[F6]",
       es: "Golpe Multiplicador[F6]",
       id: "PengaliHit[F6]",
-      vi: "Số Lượng Đòn Đánh [F6]",
+      vi: "Tăng số đòn đánh[F6]",
     },
     {
       Text: "TEXT_AUTO_PICK_TREASURE",
@@ -112,7 +112,7 @@ class ModLanguage {
       ja: "自動で吸収すんや[F8]",
       es: "Auto Absorber[F8]",
       id: "SerapOtomatis[F8]",
-      vi: "Tự Động Hấp Thụ Echo[F8]",
+      vi: "Tự Động Nhặt Echo[F8]",
     },
     {
       Text: "TEXT_KILL_AURA",
@@ -139,7 +139,7 @@ class ModLanguage {
       ja: "クールダウンなしやで[F11]",
       es: "Sin Enfriamiento[F11]",
       id: "Tanpa Cooldown [F11]",
-      vi: "Không Thời Gian Hồi Chiêu [F11]",
+      vi: "Không Thời Gian Hồi Chiêu[F11]",
     },
     {
       Text: "TEXT_PLAYER_SPEED",
@@ -202,7 +202,7 @@ class ModLanguage {
       ja: "| 前のファイル[PageUp]",
       es: "| Archivo Anterior[PageUp]:",
       id: "| File Sebelumnya[PageUp]:",
-      vi: "| FileTrước[PageUp]:",
+      vi: "| File Trước[PageUp]:",
     },
     {
       Text: "TEXT_NEXT_FILE",
@@ -211,7 +211,7 @@ class ModLanguage {
       ja: " | つぎのファイル[PageDown]",
       es: " | Archivo Siguiente[PageDown]:",
       id: " | File Berikutnya[PageDown]:",
-      vi: " | FileKế[PageDown]:",
+      vi: " | File Sau[PageDown]:",
     },
     {
       Text: "TEXT_PREV_POS",
@@ -220,7 +220,7 @@ class ModLanguage {
       ja: " |前のポジション[Up]",
       es: " | Posición Anterior[Up]:",
       id: " | Posisi Sebelumnya[Up]:",
-      vi: " | VịTríTrước[Up]:",
+      vi: " | Vị Trí Trước[Up]:",
     },
     {
       Text: "TEXT_NEXT_POS",
@@ -229,7 +229,7 @@ class ModLanguage {
       ja: " |つぎのポジション[Down]",
       es: " | Posición Siguiente[Down]:",
       id: " | Posisi Berikutnya[Down]:",
-      vi: " | VịTríKế[Down]:",
+      vi: " | Vị Trí Kế[Down]:",
     },
     {
       Text: "TEXT_ANTI_DITHER",
@@ -247,7 +247,7 @@ class ModLanguage {
       ja: " | SetDelay[Left]: ",
       es: " | Establecer Retraso[Izquierda]: ",
       id: " | AturJeda[Kiri]: ",
-      vi: " | ĐặtĐộTrễ[Left]: ",
+      vi: " | Đặt Độ Trễ[Left]: ",
     },
     {
       Text: "TEXT_SELECT_RIGHT",
@@ -328,7 +328,7 @@ class ModLanguage {
       ja: "Go",
       es: "Ir",
       id: "Pergi",
-      vi: "Đi",
+      vi: "Bắt đầu",
     },
     {
       Text: "TEXT_AUTO_MODE",
@@ -364,7 +364,7 @@ class ModLanguage {
       ja: " | オートモード[End]: ",
       es: " | Modo Automático[End]: ",
       id: " | ModeOtomatis[Akhir]: ",
-      vi: " | ChếĐộTựĐộng[End]: ",
+      vi: " | Tự Động[End]: ",
     },
     {
       Text: "TEXT_INFINITE_STAMINA",
@@ -409,7 +409,7 @@ class ModLanguage {
       ja: "ビジュアル",
       es: "Visual",
       id: "Visual",
-      vi: "Thị giác",
+      vi: "Hiển thị",
     },
     {
       Text: "TEXT_HIDE_HUD",
@@ -418,7 +418,7 @@ class ModLanguage {
       ja: "HUDを非表示",
       es: "Ocultar Interfaz",
       id: "Sembunyikan HUD",
-      vi: "Ẩn HUB",
+      vi: "Ẩn HUD",
     },
     {
       Text: "TEXT_HIDE_DAMAGE_TEXT",
@@ -500,7 +500,7 @@ class ModLanguage {
       ja: "このハックは完全に無料です。これを入手するためにお金を払った場合は、詐欺に遭ったことになります。",
       es: "Este hack es completamente gratuito, si pagaste por obtenerlo, has sido estafado.",
       id: "Hack ini sepenuhnya gratis, jika Anda membayar untuk mendapatkan ini, Anda telah tertipu.",
-      vi: "Bản hack này hoàn toàn miễn phí, nếu bạn đã mua nó từ ai, bạn đã bị lừa đảo.",
+      vi: "Bản hack này hoàn toàn miễn phí, nếu bạn phải trả tiền để mua nó, bạn đã bị lừa đảo.",
     },
     {
       Text: "TEXT_DESIGNER",
@@ -536,7 +536,7 @@ class ModLanguage {
       ja: "動物を殺す",
       id: "Bunuh Hewan",
       es: "Matar Animal",
-      vi: "Tàn Sát Động Vật",
+      vi: "Diệt động vật",
     },
     {
       Text: "TEXT_SAVE_CONFIG",
@@ -545,7 +545,7 @@ class ModLanguage {
       ja: "設定を保存",
       id: "Simpan Konfigurasi",
       es: "Guardar Configuración",
-      vi: "Lưu Cài Đặt",
+      vi: "Lưu cài đặt",
     },
     {
       Text: "TEXT_AUTO_DESTROY",
@@ -555,6 +555,7 @@ class ModLanguage {
       id: "Hancur Otomatis [Num1]",
       es: "Auto Destruir [Num1]"
       vi: "Tự Động Phá Hủy [Num1]",
+
     },
     {
       Text: "TEXT_LANGUAGE",
@@ -572,16 +573,17 @@ class ModLanguage {
       ja: "コンソールコマンド",
       id: "Perintah Konsol",
       es: "Consola de comandos",
-      vi: "Lệnh Điều Khiển",
+      vi: "Console Command",
     },
     {
       Text: "TEXT_FOV",
       en: "FOV",
       chs: "FOV",
       ja: "視野角",
+      vi: "Thay đổi góc nhìn",
       id: "Sudut Pandang",
       es: "FOV",
-      vi: "Phạm Vi Quan Sát",
+      vi: "Thay đổi góc nhìn",
     },
     {
       Text: "TEXT_SHOW_FPS",
@@ -698,7 +700,7 @@ class ModLanguage {
       ja: "天気",
       id: "Cuaca",
       es: "Clima",
-      vi: "Thời Tiết",
+      vi: "Thời tiết",
     },
     {
       Text: "TEXT_VACUUM_COLLECT",
@@ -725,7 +727,7 @@ class ModLanguage {
       ja: "フィルター",
       id: "Filter",
       es: "Filtro",
-      vi: "Bộ Lọc",
+      vi: "Bộ lọc",
     },
     {
       Text: "TEXT_SUNNY",
@@ -743,7 +745,7 @@ class ModLanguage {
       ja: "曇り",
       id: "Berawan",
       es: "Nublado",
-      vi: "Nhiều Mây",
+      vi: "Nhiều mây",
     },
     {
       Text: "TEXT_THUNDER_RAIN",
