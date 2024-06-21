@@ -12,6 +12,104 @@ const { ModLanguage } = require("./ModLanguage");
 class BluePrintType extends ModLanguage {
 
   static translate = [
+        {
+      BluePrint: "Treasure001",
+      en: "Basic Supply Chest",
+      chs: "简易物资箱",
+      ja: "Basic Supply Chest",
+      id: "Basic Supply Chest"
+    },
+    {
+      BluePrint: "Treasure002",
+      en: "Treasure002",
+      chs: "简易物资箱",
+      ja: "Treasure002",
+      id: "Harta Karun002"
+    },
+    {
+      BluePrint: "Treasure003",
+      en: "Treasure003",
+      chs: "简易物资箱",
+      ja: "Treasure003",
+      id: "Harta Karun003"
+    },
+    {
+      BluePrint: "Treasure004",
+      en: "Standard Supply Chest",
+      chs: "标准物资箱",
+      ja: "Standard Supply Chest",
+      id: "Standard Supply Chest"
+    },
+    {
+      BluePrint: "Treasure005",
+      en: "Blue Tidal Heritage",
+      chs: "标准物资箱_黑石增生",
+      ja: "Blue Tidal Heritage",
+      id: "Blue Tidal Heritage"
+    },
+    {
+      BluePrint: "Treasure006",
+      en: "Treasure006",
+      chs: "标准物资箱",
+      ja: "Treasure006",
+      id: "Harta Karun006"
+    },
+    {
+      BluePrint: "Treasure007",
+      en: "Treasure007",
+      chs: "Blue Tidal Heritage",
+      ja: "Treasure007",
+      id: "Harta Karun007"
+    },
+    {
+      BluePrint: "Treasure008",
+      en: "Purple Tidal Heritage",
+      chs: "豪华物资箱_黑石增生",
+      ja: "Purple Tidal Heritage",
+      id: "Purple Tidal Heritage"
+    },
+    {
+      BluePrint: "Treasure009",
+      en: "Treasure009",
+      chs: "豪华物资箱_黑石增生",
+      ja: "Treasure009",
+      id: "Harta Karun009"
+    },
+    {
+      BluePrint: "Treasure010",
+      en: "Suspicious Chest",
+      chs: "丰厚物资箱",
+      ja: "Suspicious Chest",
+      id: "Suspicious Chest"
+    },
+    {
+      BluePrint: "Treasure011",
+      en: "Treasure011",
+      chs: "幻象宝箱_金",
+      ja: "Treasure011",
+      id: "Harta Karun011"
+    },
+    {
+      BluePrint: "Treasure012",
+      en: "Treasure012",
+      chs: "丰厚物资箱",
+      ja: "Treasure012",
+      id: "Harta Karun012"
+    },
+    {
+      BluePrint: "Treasure013",
+      en: "Treasure013",
+      chs: "丰厚物资箱",
+      ja: "Treasure013",
+      id: "Harta Karun013"
+    },
+    {
+      BluePrint: "Treasure014",
+      en: "Standard Supply Chest",
+      chs: "标准物资箱",
+      ja: "Standard Supply Chest",
+      id: "Standard Supply Chest"
+    },
     {
       BluePrint: "Collect001",
       en: "Collect001",
