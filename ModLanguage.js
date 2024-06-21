@@ -534,7 +534,7 @@ class ModLanguage {
       en: "Kill Animal",
       chs: "杀死动物",
       ja: "動物を殺す",
-      id: "Bunuh Hewan"
+      id: "Bunuh Hewan",
     },
     {
       Text: "TEXT_SAVE_CONFIG",
