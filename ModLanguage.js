@@ -301,7 +301,7 @@ class ModLanguage {
       ja: "CustomTp:オートモード:遅延を設定",
       es: "CustomTp:AutoMode:Establecer Retraso",
       id: "KustomTp:ModeOtomatis:Set Jeda",
-      vi: "DịchChuyểnTùyChỉnh:TựĐộng:Đặt độ trễ",
+      vi: "DịchChuyểnTùyChỉnh:ChếĐộTựĐộng:Đặt độ trễ",
     },
     {
       Text: "TEXT_ENTER_DELAY",
@@ -337,7 +337,7 @@ class ModLanguage {
       ja: "オートモード",
       es: "Modo Automático",
       id: "ModeOtomatis",
-      vi: "TựĐộng",
+      vi: "ChếĐộTựĐộng",
     },
     {
       Text: "TEXT_CUSTOM_TP_CURR_POS_SELECT",
@@ -364,7 +364,7 @@ class ModLanguage {
       ja: " | オートモード[End]: ",
       es: " | Modo Automático[End]: ",
       id: " | ModeOtomatis[Akhir]: ",
-      vi: " | TựĐộng[End]: ",
+      vi: " | ChếĐộTựĐộng[End]: ",
     },
     {
       Text: "TEXT_INFINITE_STAMINA",
@@ -536,6 +536,7 @@ class ModLanguage {
       ja: "動物を殺す",
       id: "Bunuh Hewan",
       es: "Matar Animal",
+      vi: "Tàn Sát Động Vật",
     },
     {
       Text: "TEXT_SAVE_CONFIG",
@@ -544,6 +545,7 @@ class ModLanguage {
       ja: "設定を保存",
       id: "Simpan Konfigurasi",
       es: "Guardar Configuración",
+      vi: "Lưu Cài Đặt",
     },
     {
       Text: "TEXT_AUTO_DESTROY",
@@ -551,7 +553,8 @@ class ModLanguage {
       chs: "自动销毁[Num1]",
       ja: "Auto Destroy [Num1]",
       id: "Hancur Otomatis [Num1]",
-      es: "Auto Destruir [Num1]",
+      es: "Auto Destruir [Num1]"
+      vi: "Tự Động Phá Hủy [Num1]",
     },
     {
       Text: "TEXT_LANGUAGE",
@@ -560,6 +563,7 @@ class ModLanguage {
       ja: "言語",
       id: "Bahasa",
       es: "Idioma",
+      vi: "Ngôn Ngữ",
     },
     {
       Text: "TEXT_CONSOLE_COMMAND",
@@ -568,6 +572,7 @@ class ModLanguage {
       ja: "コンソールコマンド",
       id: "Perintah Konsol",
       es: "Consola de comandos",
+      vi: "Lệnh Điều Khiển",
     },
     {
       Text: "TEXT_FOV",
@@ -576,6 +581,7 @@ class ModLanguage {
       ja: "視野角",
       id: "Sudut Pandang",
       es: "FOV",
+      vi: "Phạm Vi Quan Sát",
     },
     {
       Text: "TEXT_SHOW_FPS",
@@ -583,6 +589,8 @@ class ModLanguage {
       chs: "显示FPS",
       ja: "FPSを表示",
       id: "Tampilkan FPS",
+      es: "Mostrar FPS",
+      vi: "Hiện FPS",
     },
     {
       Text: "TEXT_FPS_UNLOCKER",
@@ -590,7 +598,8 @@ class ModLanguage {
       chs: "FPS解锁",
       ja: "FPSアンロック",
       id: "Pembuka Kunci FPS",
-      es: "Mostrar FPS",
+      es: "Desbloqueador de FPS",
+      vi: "Mở Khoá FPS",
     },
     {
       Text: "TEXT_SONANCE_CASKET",
@@ -599,6 +608,7 @@ class ModLanguage {
       ja: "ソナンスカスケット",
       id: "Sonance Casket",
       es: "Caja de Sonancia",
+      vi: "Bánh Sonance",
     },
     {
       Text: "TEXT_PUZZLE",
@@ -607,6 +617,7 @@ class ModLanguage {
       ja: "Puzzle",
       id: "Teka-teki",
       es: "Rompecabezas",
+      vi: "Giải Đố",
     },
     {
       Text: "TEXT_ANIMAL",
@@ -615,6 +626,7 @@ class ModLanguage {
       ja: "動物",
       id: "Hewan",
       es: "Animal",
+      vi: "Động Vật",
     },
     {
       Text: "TEXT_TREASURE",
@@ -623,6 +635,7 @@ class ModLanguage {
       ja: "宝物",
       id: "Harta Karun",
       es: "Tesoro",
+      vi: "Phần Thưởng",
     },
     {
       Text: "TEXT_COLLECTION",
@@ -631,6 +644,7 @@ class ModLanguage {
       ja: "コレクション",
       id: "Koleksi",
       es: "Colección",
+      vi: "Sưu Tầm",
     },
     {
       Text: "TEXT_MONSTER",
@@ -639,6 +653,7 @@ class ModLanguage {
       ja: "モンスター",
       id: "Monster",
       es: "Monstruo",
+      vi: "Quái Vật",
     },
     {
       Text: "TEXT_SHOW_BOX",
@@ -647,6 +662,7 @@ class ModLanguage {
       ja: "表示ボックス",
       id: "Tampilkan Kotak",
       es: "Mostrar Caja",
+      vi: "Hiện Box",
     },
     {
       Text: "TEXT_SHOW_DISTANCE",
@@ -655,6 +671,7 @@ class ModLanguage {
       ja: "距離を表示します",
       id: "Tampilkan Jarak",
       es: "Mostrar Distancia",
+      vi: "Hiện Khoảng Cách",
     },
     {
       Text: "TEXT_SHOW_NAME",
@@ -663,6 +680,7 @@ class ModLanguage {
       ja: "ショー名",
       id: "Tampilkan Nama",
       es: "Mostrar Nombre",
+      vi: "Hiện Tên",
     },
     {
       Text: "HEADING_ESP",
@@ -671,6 +689,7 @@ class ModLanguage {
       ja: "ESP",
       id: "ESP",
       es: "ESP",
+      vi: "ESP",
     },
     {
       Text: "TEXT_WEATHER",
@@ -679,6 +698,7 @@ class ModLanguage {
       ja: "天気",
       id: "Cuaca",
       es: "Clima",
+      vi: "Thời Tiết",
     },
     {
       Text: "TEXT_VACUUM_COLLECT",
@@ -687,6 +707,7 @@ class ModLanguage {
       ja: "Vacuum Collect",
       id: "Vacuum Collect",
       es: "Vacuum Collect",
+      vi: "Thu Thập Bằng Cách Hút",
     },
     {
       Text: "TEXT_MOB_VACUUM",
@@ -694,7 +715,8 @@ class ModLanguage {
       chs: "吸怪",
       ja: "Monster Vacuum",
       id: "Vakum Monster",
-      es: "Monster Vacuum"
+      es: "Monster Vacuum",
+      vi: "Hút Quái",
     },
     {
       Text: "HEADING_FILTER",
@@ -703,6 +725,7 @@ class ModLanguage {
       ja: "フィルター",
       id: "Filter",
       es: "Filtro",
+      vi: "Bộ Lọc",
     },
     {
       Text: "TEXT_SUNNY",
@@ -711,6 +734,7 @@ class ModLanguage {
       ja: "晴れ",
       id: "Cerah",
       es: "Soleado",
+      vi: "Nắng",
     },
     {
       Text: "TEXT_CLOUDY",
@@ -719,6 +743,7 @@ class ModLanguage {
       ja: "曇り",
       id: "Berawan",
       es: "Nublado",
+      vi: "Nhiều Mây",
     },
     {
       Text: "TEXT_THUNDER_RAIN",
@@ -727,6 +752,7 @@ class ModLanguage {
       ja: "雷雨",
       id: "Hujan Petir",
       es: "Tormenta",
+      vi: "Mây Mưa",
     },
     {
       Text: "TEXT_SNOW",
@@ -735,6 +761,7 @@ class ModLanguage {
       ja: "雪",
       id: "Salju",
       es: "Nieve",
+      vi: "Tuyết",
     },
     {
       Text: "TEXT_RAIN",
@@ -743,6 +770,7 @@ class ModLanguage {
       ja: "雨",
       id: "Hujan",
       es: "Lluvia",
+      vi: "Mưa",      
     },
     ];
     
