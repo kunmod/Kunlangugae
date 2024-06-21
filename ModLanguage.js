@@ -535,6 +535,7 @@ class ModLanguage {
       chs: "杀死动物",
       ja: "動物を殺す",
       id: "Bunuh Hewan",
+      es: "Matar Animal",
     },
     {
       Text: "TEXT_SAVE_CONFIG",
@@ -542,6 +543,7 @@ class ModLanguage {
       chs: "保存配置",
       ja: "設定を保存",
       id: "Simpan Konfigurasi",
+      es: "Guardar Configuración",
     },
     {
       Text: "TEXT_AUTO_DESTROY",
@@ -549,6 +551,7 @@ class ModLanguage {
       chs: "自动销毁[Num1]",
       ja: "Auto Destroy [Num1]",
       id: "Hancur Otomatis [Num1]"
+      es: "Auto Destruir [Num1]",
     },
     {
       Text: "TEXT_LANGUAGE",
@@ -556,6 +559,7 @@ class ModLanguage {
       chs: "语言",
       ja: "言語",
       id: "Bahasa",
+      es: "Idioma",
     },
     {
       Text: "TEXT_CONSOLE_COMMAND",
@@ -563,13 +567,7 @@ class ModLanguage {
       chs: "虚幻控制台命令",
       ja: "コンソールコマンド",
       id: "Perintah Konsol",
-    },
-    {
-      Text: "TEXT_CONSOLE_COMMAND",
-      en: "Console Command",
-      chs: "控制台命令",
-      ja: "コンソールコマンド",
-      id: "Perintah Konsol",
+      es: "Consola de comandos",
     },
     {
       Text: "TEXT_FOV",
@@ -577,6 +575,7 @@ class ModLanguage {
       chs: "FOV",
       ja: "視野角",
       id: "Sudut Pandang",
+      es: "FOV",
     },
     {
       Text: "TEXT_SHOW_FPS",
@@ -591,6 +590,7 @@ class ModLanguage {
       chs: "FPS解锁",
       ja: "FPSアンロック",
       id: "Pembuka Kunci FPS",
+      es: "Mostrar FPS",
     },
     {
       Text: "TEXT_SONANCE_CASKET",
@@ -598,6 +598,7 @@ class ModLanguage {
       chs: "声匣",
       ja: "ソナンスカスケット",
       id: "Sonance Casket",
+      es: "Caja de Sonancia",
     },
     {
       Text: "TEXT_PUZZLE",
@@ -605,6 +606,7 @@ class ModLanguage {
       chs: "解谜",
       ja: "Puzzle",
       id: "Teka-teki",
+      es: "Rompecabezas",
     },
     {
       Text: "TEXT_ANIMAL",
@@ -612,6 +614,7 @@ class ModLanguage {
       chs: "动物",
       ja: "動物",
       id: "Hewan",
+      es: "Animal",
     },
     {
       Text: "TEXT_TREASURE",
@@ -619,6 +622,7 @@ class ModLanguage {
       chs: "箱子",
       ja: "宝物",
       id: "Harta Karun",
+      es: "Tesoro",
     },
     {
       Text: "TEXT_COLLECTION",
@@ -626,6 +630,7 @@ class ModLanguage {
       chs: "收集品",
       ja: "コレクション",
       id: "Koleksi",
+      es: "Colección",
     },
     {
       Text: "TEXT_MONSTER",
@@ -633,6 +638,7 @@ class ModLanguage {
       chs: "怪物",
       ja: "モンスター",
       id: "Monster",
+      es: "Monstruo",
     },
     {
       Text: "TEXT_SHOW_BOX",
@@ -640,6 +646,7 @@ class ModLanguage {
       chs: "展示方框",
       ja: "表示ボックス",
       id: "Tampilkan Kotak",
+      es: "Mostrar Caja",
     },
     {
       Text: "TEXT_SHOW_DISTANCE",
@@ -647,6 +654,7 @@ class ModLanguage {
       chs: "显示距离",
       ja: "距離を表示します",
       id: "Tampilkan Jarak",
+      es: "Mostrar Distancia",
     },
     {
       Text: "TEXT_SHOW_NAME",
@@ -654,6 +662,7 @@ class ModLanguage {
       chs: "显示名称",
       ja: "ショー名",
       id: "Tampilkan Nama",
+      es: "Mostrar Nombre",
     },
     {
       Text: "HEADING_ESP",
@@ -661,6 +670,7 @@ class ModLanguage {
       chs: "透视",
       ja: "ESP",
       id: "ESP",
+      es: "ESP",
     },
     {
       Text: "TEXT_WEATHER",
@@ -668,6 +678,7 @@ class ModLanguage {
       chs: "天气",
       ja: "天気",
       id: "Cuaca",
+      es: "Clima",
     },
     {
       Text: "TEXT_VACUUM_COLLECT",
@@ -675,6 +686,7 @@ class ModLanguage {
       chs: "吸收集品",
       ja: "Vacuum Collect",
       id: "Vacuum Collect",
+      es: "Vacuum Collect",
     },
     {
       Text: "TEXT_MOB_VACUUM",
@@ -682,6 +694,7 @@ class ModLanguage {
       chs: "吸怪",
       ja: "Monster Vacuum",
       id: "Vakum Monster",
+      es: "Monster Vacuum"
     },
     {
       Text: "HEADING_FILTER",
@@ -689,6 +702,7 @@ class ModLanguage {
       chs: "筛选",
       ja: "フィルター",
       id: "Filter",
+      es: "Filtro",
     },
     {
       Text: "TEXT_SUNNY",
@@ -696,6 +710,7 @@ class ModLanguage {
       chs: "晴天",
       ja: "晴れ",
       id: "Cerah",
+      es: "Soleado",
     },
     {
       Text: "TEXT_CLOUDY",
@@ -703,6 +718,7 @@ class ModLanguage {
       chs: "多云的",
       ja: "曇り",
       id: "Berawan",
+      es: "Nublado",
     },
     {
       Text: "TEXT_THUNDER_RAIN",
@@ -710,6 +726,7 @@ class ModLanguage {
       chs: "雷雨",
       ja: "雷雨",
       id: "Hujan Petir",
+      es: "Tormenta",
     },
     {
       Text: "TEXT_SNOW",
@@ -717,6 +734,7 @@ class ModLanguage {
       chs: "雪",
       ja: "雪",
       id: "Salju",
+      es: "Nieve",
     },
     {
       Text: "TEXT_RAIN",
@@ -724,6 +742,7 @@ class ModLanguage {
       chs: "雨",
       ja: "雨",
       id: "Hujan",
+      es: "Lluvia",
     },
     ];
     
