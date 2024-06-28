@@ -25,7 +25,7 @@ class ModLanguage {
         return "id";
       case "Vietnamese":
         return "vi";
-      case "Korean":
+      case "한국어":
         return "ko";
       default:
         return "en";
@@ -39,7 +39,7 @@ class ModLanguage {
     "Español",
     "Indonesia",
     "Vietnamese",
-    "Korean",
+    "한국어",
   ];
 
   static translate = [
@@ -50,7 +50,7 @@ class ModLanguage {
         es: "Teleportación Personalizada [Ins]",
         id: "Kustomisasi Teleport [Ins]",
         ja: "てきとうな瞬間移動 [Ins]",
-        ko: "사용자 정의 텔레포트 [Ins]",
+        ko: "커스텀 텔레포트 [Ins]",
         vi: "Dịch Chuyển Tùy Chỉnh [Ins]"
     },
     {
@@ -60,7 +60,7 @@ class ModLanguage {
         es: " : <color=green>ACTIVO</color> |",
         id: " : <color=green>ON</color> |",
         ja: " : <color=green>オン</color>",
-        ko: " : <color=greko>에</color> |",
+        ko: " : <color=greko>켜기</color> |",
         vi: " : <color=green>BẬT</color> |"
     },
     {
@@ -70,7 +70,7 @@ class ModLanguage {
         es: " : <color=red>DESACTIVADO</color> |",
         id: " : <color=red>OFF</color> |",
         ja: " : <color=red>オフ</color>",
-        ko: " : <color=red>끄다</color> |",
+        ko: " : <color=red>끄기</color> |",
         vi: " : <color=red>TẮT</color> |"
     },
     {
@@ -80,7 +80,7 @@ class ModLanguage {
         es: "ACTIVO",
         id: "ON",
         ja: "オン",
-        ko: "에",
+        ko: "켜기",
         vi: "Bật"
     },
     {
@@ -90,7 +90,7 @@ class ModLanguage {
         es: "DESACTIVADO",
         id: "OFF",
         ja: "オフ",
-        ko: "끄다",
+        ko: "끄기",
         vi: "TẮT"
     },
     {
@@ -110,7 +110,7 @@ class ModLanguage {
         es: "Golpe Multiplicador [F6]",
         id: "Pengganda Hit [F6]",
         ja: "ヒット倍率 [F6]",
-        ko: "히트 멀티플라이어 [F6]",
+        ko: "타격 배수 [F6]",
         vi: "Số Lượng Đòn Đánh [F6]"
     },
     {
@@ -120,7 +120,7 @@ class ModLanguage {
         es: "Auto Recoger Tesoro [F7]",
         id: "Ambil Harta Otomatis [F7]",
         ja: "自動で宝を拾うんや [F7]",
-        ko: "자동 보물 선택 [F7]",
+        ko: "자동 보물상자 오픈 [F7]",
         vi: "Tự Động Nhặt Phần Thưởng [F7]"
     },
     {
@@ -140,7 +140,7 @@ class ModLanguage {
         es: "Matar Enemigos Automáticamente [F9]",
         id: "Bunuh Musuh Otomatis [F9]",
         ja: "敵を自動で倒す [F9]",
-        ko: "자동 적 사살 [F9]",
+        ko: "자동 몬스터 처치 [F9]",
         vi: "Tự Động Tiêu Diệt Kẻ Thù [F9]"
     },
     {
@@ -160,7 +160,7 @@ class ModLanguage {
         es: "Sin Enfriamiento [F11]",
         id: "Tanpa Cooldown [F11]",
         ja: "クールダウンなしやで [F11]",
-        ko: "쿨다운 없음 [F11]",
+        ko: "쿨다운 제거 [F11]",
         vi: "Không Thời Gian Hồi Chiêu [F11]"
     },
     {
@@ -180,7 +180,7 @@ class ModLanguage {
         es: "Teleportación Personalizada [INS]",
         id: "Teleportasi Kustom [INS]",
         ja: "てきとうな瞬間移動 [INS]",
-        ko: "사용자 정의 텔레포트 [INS]",
+        ko: "커스텀 텔레포트 [INS]",
         vi: "Dịch Chuyển Tùy Chỉnh [INS]"
     },
     {
@@ -190,7 +190,7 @@ class ModLanguage {
         es: "Colección de juegos automáticos [Num0]",
         id: "Pengambil Koleksi Otomatis [Num0]",
         ja: "自動小冊子の保存 [Num0]",
-        ko: "자동 콜렉시 펜감빌 [Num0]",
+        ko: "자동 루팅 [Num0]",
         vi: "Tự Động Nhặt  [Num0]"
     },
     {
@@ -200,7 +200,7 @@ class ModLanguage {
         es: "Estado de Teleportación Personalizada [Insert]:",
         id: "Status Teleportasi Kustom [Insert]:",
         ja: "カスタムテレポートの状態 [Insert]",
-        ko: "사용자 정의 텔레포트 상태 [Insert]:",
+        ko: "커스텀 텔레포트 상태 [Insert]:",
         vi: "Trạng thái dịch chuyển [Insert]:"
     },
     {
@@ -210,7 +210,7 @@ class ModLanguage {
         es: " Mostrar [Del]",
         id: " Tampilkan [Del]",
         ja: " ショー [Del]",
-        ko: " 보여주다 [Del]",
+        ko: " 보기 [Del]",
         vi: " Hiện [Del]"
     },
     {
@@ -250,7 +250,7 @@ class ModLanguage {
         es: " | Posición Anterior [Up]:",
         id: " | Posisi Sebelumnya [Atas]:",
         ja: " | 前のポジション [上矢印]",
-        ko: " | 이전 위치 [올라]:",
+        ko: " | 이전 위치 [Up]:",
         vi: " | Vị Trí Trước [TRÊN]:"
     },
     {
@@ -260,7 +260,7 @@ class ModLanguage {
         es: " | Posición Siguiente [Down]:",
         id: " | Posisi Berikutnya [Bawah]:",
         ja: " | つぎのポジション [下]:",
-        ko: " | 다음 위치 [낮추다]:",
+        ko: " | 다음 위치 [Down]:",
         vi: " | Vị Trí Kế [Thấp hơn]:"
     },
     {
@@ -280,7 +280,7 @@ class ModLanguage {
         es: " | Establecer Retraso [Izquierda]:",
         id: " | Atur Jeda [Kiri]:",
         ja: " | 遅延を設定する [左]:",
-        ko: " | 지연 설정 [왼쪽]:",
+        ko: " | 딜레이 설정 [Left]:",
         vi: " | Đặt Độ Trễ [Bên trái]:"
     },
     {
@@ -290,7 +290,7 @@ class ModLanguage {
         es: " | Seleccionar [Derecha]:",
         id: " | Pilih [Kanan]:",
         ja: " | 選択する [右]:",
-        ko: " | 선택하다 [카난]:",
+        ko: " | 선택 [Right]:",
         vi: " | Chọn [Phải]:"
     },
     {
@@ -340,7 +340,7 @@ class ModLanguage {
         es: "Teletransporte Personalizado:Modo Automático:Establecer Retraso",
         id: "Teleportasi Kustom:Mode Otomatis:Atur Jeda",
         ja: "カスタムテレポート:自動モード:遅延の設定",
-        ko: "사용자 지정 텔레포트: 자동 모드: 지연 설정",
+        ko: "커스텀 텔레포트: 자동 모드: 지연 설정",
         vi: "Dịch chuyển tùy chỉnh:Chế độ tự động:Thiết lập độ trễ"
     },
     {
@@ -370,7 +370,7 @@ class ModLanguage {
         es: "Ir",
         id: "Pergi",
         ja: "行く",
-        ko: "가다",
+        ko: "Go",
         vi: "Đi"
     },
     {
@@ -390,7 +390,7 @@ class ModLanguage {
         es: "Teletransporte Personalizado:Posición Actual:Seleccionar",
         id: "Teleportasi Kustom:Posisi Saat Ini:Pilih",
         ja: "カスタムテレポート:現在の位置:選択",
-        ko: "사용자 지정 텔레포트:현재 위치:선택",
+        ko: "커스텀 텔레포트:현재 위치:선택",
         vi: "Dịch chuyển tùy chỉnh:Vị trí hiện tại:Chọn"
     },
     {
@@ -420,7 +420,7 @@ class ModLanguage {
         es: "Estamina Infinita",
         id: "Stamina Tak Terbatas",
         ja: "無限のスタミナ",
-        ko: "무한한 체력",
+        ko: "무한 체력",
         vi: "Vô hạn năng lượng"
     },
     {
@@ -430,7 +430,7 @@ class ModLanguage {
         es: "UID Personalizado",
         id: "UID Kustom",
         ja: "カスタムUID",
-        ko: "사용자 정의 UID",
+        ko: "커스텀 UID",
         vi: "UID Tùy Chỉnh"
     },
     {
@@ -450,7 +450,7 @@ class ModLanguage {
         es: "Mundo",
         id: "Dunia",
         ja: "世界",
-        ko: "세계",
+        ko: "월드",
         vi: "Thế giới"
     },
     {
@@ -460,7 +460,7 @@ class ModLanguage {
         es: "Visual",
         id: "Visual",
         ja: "ビジュアル",
-        ko: "시각적",
+        ko: "비주얼",
         vi: "Thị giác"
     },
     {
@@ -480,7 +480,7 @@ class ModLanguage {
         es: "Ocultar Texto de Daño",
         id: "Sembunyikan Teks Kerusakan",
         ja: "ダメージテキストを非表示",
-        ko: "손상 텍스트 숨기기",
+        ko: "데미지 텍스트 숨기기",
         vi: "Không hiện sát thương"
     },
     {
@@ -500,7 +500,7 @@ class ModLanguage {
         es: "Solo Agresivo",
         id: "Hanya Kebencian",
         ja: "まさにアグレッシブ",
-        ko: "그냥 공격적",
+        ko: "공격적 몬스터만",
         vi: "Chỉ Ở Xung Quanh"
     },
     {
@@ -510,7 +510,7 @@ class ModLanguage {
         es: "Infinito",
         id: "Tak Terbatas",
         ja: "無限",
-        ko: "무한대",
+        ko: "모든 몬스터",
         vi: "Vô hạn"
     },
     {
@@ -520,7 +520,7 @@ class ModLanguage {
         es: "Teletransporte",
         id: "Teleportasi",
         ja: "テレポート",
-        ko: "순간이동",
+        ko: "텔레포트",
         vi: "Dịch chuyển"
     },
     {
@@ -590,7 +590,7 @@ class ModLanguage {
         es: "Velocidad del Mundo",
         id: "Kecepatan Dunia",
         ja: "世界スピード",
-        ko: "세계 속도",
+        ko: "월드 속도",
         vi: "Tốc Độ Thế Giới"
     },
     {
@@ -600,7 +600,7 @@ class ModLanguage {
         es: "Matar Animal",
         id: "Bunuh Hewan",
         ja: "動物を殺す",
-        ko: "동물을 죽이다",
+        ko: "동물 처치",
         vi: "Giết Động Vật"
     },
     {
@@ -630,7 +630,7 @@ class ModLanguage {
         es: "UE4 Consola de comandos",
         id: "Perintah Konsol UE4",
         ja: "UE4コンソール コマンド",
-        ko: "UE4 콘솔 명령",
+        ko: "UE4 콘솔 명령어",
         vi: "Lệnh điều khiển UE4"
     },
     {
@@ -670,7 +670,7 @@ class ModLanguage {
         es: "Caja de Sonancia",
         id: "Sonance Casket",
         ja: "ソナンスカスケット",
-        ko: "소넌스 관",
+        ko: "사운드 박스",
         vi: "Sonance Casket"
     },
     {
@@ -700,7 +700,7 @@ class ModLanguage {
         es: "Tesoro",
         id: "Harta",
         ja: "宝物",
-        ko: "보물",
+        ko: "보물 상자",
         vi: "Kho báu"
     },
     {
@@ -720,7 +720,7 @@ class ModLanguage {
         es: "Monstruo",
         id: "Monster",
         ja: "モンスター",
-        ko: "괴물",
+        ko: "몬스터",
         vi: "Quái vật"
     },
     {
@@ -730,7 +730,7 @@ class ModLanguage {
         es: "Mostrar Caja",
         id: "Tampilkan Box",
         ja: "表示ボックス",
-        ko: "쇼 박스",
+        ko: "박스 보기",
         vi: "Hiển thị hộp"
     },
     {
@@ -780,7 +780,7 @@ class ModLanguage {
         es: "Recolección de vacío",
         id: "Vakum Koleksi",
         ja: "収集真空",
-        ko: "수집 진공",
+        ko: "수집품 진공",
         vi: "Thu thập chân không"
     },
     {
@@ -790,7 +790,7 @@ class ModLanguage {
         es: "Aspiradora monstruo",
         id: "Vakum Musuh",
         ja: "モンスターバキューム",
-        ko: "몬스터 진공 청소기",
+        ko: "몬스터 진공",
         vi: "Hút quái vật"
     },
     {
@@ -810,7 +810,7 @@ class ModLanguage {
         es: "Soleado",
         id: "Cerah",
         ja: "SUNNY",
-        ko: "밝은",
+        ko: "맑음",
         vi: "Sáng"
     },
     {
@@ -870,7 +870,7 @@ class ModLanguage {
         es: "Mutterfly",
         id: "Kupu-kupu",
         ja: "隙声蝶",
-        ko: "Mutterfly",
+        ko: "순회나비",
         vi: "Mutterfly"
     },
     {
@@ -880,7 +880,7 @@ class ModLanguage {
         es: "Blobfly",
         id: "Blobfly",
         ja: "Blobfly",
-        ko: "Blobfly",
+        ko: "플라이 헌터",
         vi: "Blobfly"
     },
     {
