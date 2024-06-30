@@ -48,7 +48,7 @@ class ModLanguage {
         chs: "自定义传送 [Ins]",
         en: "Custom Teleport [Ins]",
         es: "Teleportación Personalizada [Ins]",
-        id: "Kustomisasi Teleport [Ins]",
+        id: "Kustom Teleport [Ins]",
         ja: "てきとうな瞬間移動 [Ins]",
         ko: "사용자 정의 텔레포트 [Ins]",
         vi: "Dịch Chuyển Tùy Chỉnh [Ins]"
@@ -128,7 +128,7 @@ class ModLanguage {
         chs: "自动吸收 [F8]",
         en: "Auto Absorb [F8]",
         es: "Absorción Automática de Eco [F8]",
-        id: "Absorpsi Echo Otomatis [F8]",
+        id: "Serap Echo Otomatis [F8]",
         ja: "自動エコー吸収 [F8]",
         ko: "자동 에코 흡수 [F8]",
         vi: "Tự Động Hấp Thụ Echo [F8]"
@@ -141,7 +141,7 @@ class ModLanguage {
         id: "Bunuh Musuh Otomatis [F9]",
         ja: "敵を自動で倒す [F9]",
         ko: "자동 적 사살 [F9]",
-        vi: "Tự Động Tiêu Diệt Kẻ Thù [F9]"
+        vi: "Tự động tiêu diệt kẻ thù [F9]"
     },
     {
         Text: "TEXT_PERCEPTION_RANGE",
@@ -178,7 +178,7 @@ class ModLanguage {
         chs: "自定义传送 [INS]",
         en: "Custom Teleport [INS]",
         es: "Teleportación Personalizada [INS]",
-        id: "Teleportasi Kustom [INS]",
+        id: "Kustom Teleport [INS]",
         ja: "てきとうな瞬間移動 [INS]",
         ko: "사용자 정의 텔레포트 [INS]",
         vi: "Dịch Chuyển Tùy Chỉnh [INS]"
@@ -188,17 +188,17 @@ class ModLanguage {
         chs: "自动拾取 [Num0]",
         en: "Auto Loot [Num0]",
         es: "Colección de juegos automáticos [Num0]",
-        id: "Pengambil Koleksi Otomatis [Num0]",
+        id: "Otomatis Mengambil Barang [Num0]",
         ja: "自動小冊子の保存 [Num0]",
         ko: "자동 콜렉시 펜감빌 [Num0]",
-        vi: "Tự Động Nhặt  [Num0]"
+        vi: "bộ sưu tập tự động hóa [Num0]"
     },
     {
         Text: "TEXT_CUSTOM_TP_STATE",
         chs: "自定义传送状态 [Insert]:",
         en: "Custom Teleport State [Insert]:",
         es: "Estado de Teleportación Personalizada [Insert]:",
-        id: "Status Teleportasi Kustom [Insert]:",
+        id: "Status Kustom Teleport [Insert]:",
         ja: "カスタムテレポートの状態 [Insert]",
         ko: "사용자 정의 텔레포트 상태 [Insert]:",
         vi: "Trạng thái dịch chuyển [Insert]:"
@@ -268,7 +268,7 @@ class ModLanguage {
         chs: "反虚化",
         en: "Anti Dither",
         es: "Anti Dither",
-        id: "Anti Dither",
+        id: "Anti Blur",
         ja: "アンチディザ",
         ko: "안티 디더",
         vi: "Chống làm mờ nhân vật"
@@ -338,7 +338,7 @@ class ModLanguage {
         chs: "自定义传送:自动模式:设置延迟",
         en: "Custom Teleport:Auto Mode:Set Delay",
         es: "Teletransporte Personalizado:Modo Automático:Establecer Retraso",
-        id: "Teleportasi Kustom:Mode Otomatis:Atur Jeda",
+        id: "Kustom Teleport: Mode Otomatis: Atur Jeda",
         ja: "カスタムテレポート:自動モード:遅延の設定",
         ko: "사용자 지정 텔레포트: 자동 모드: 지연 설정",
         vi: "Dịch chuyển tùy chỉnh:Chế độ tự động:Thiết lập độ trễ"
@@ -388,7 +388,7 @@ class ModLanguage {
         chs: "自定义传送:当前序号:选择",
         en: "Custom Teleport:Current Position:Select",
         es: "Teletransporte Personalizado:Posición Actual:Seleccionar",
-        id: "Teleportasi Kustom:Posisi Saat Ini:Pilih",
+        id: "Kustom Teleport: Posisi Saat Ini: Pilih",
         ja: "カスタムテレポート:現在の位置:選択",
         ko: "사용자 지정 텔레포트:현재 위치:선택",
         vi: "Dịch chuyển tùy chỉnh:Vị trí hiện tại:Chọn"
@@ -478,7 +478,7 @@ class ModLanguage {
         chs: "隐藏伤害文字",
         en: "Hide Damage Text",
         es: "Ocultar Texto de Daño",
-        id: "Sembunyikan Teks Kerusakan",
+        id: "Sembunyikan Teks Damage",
         ja: "ダメージテキストを非表示",
         ko: "손상 텍스트 숨기기",
         vi: "Không hiện sát thương"
@@ -501,7 +501,7 @@ class ModLanguage {
         id: "Hanya Kebencian",
         ja: "まさにアグレッシブ",
         ko: "그냥 공격적",
-        vi: "Chỉ Ở Xung Quanh"
+        vi: "Chỉ hung hăng"
     },
     {
         Text: "TEXT_INFINITY",
@@ -651,7 +651,7 @@ class ModLanguage {
         id: "Tampilkan FPS",
         ja: "FPSを表示",
         ko: "FPS 표시",
-        vi: "Hiện FPS"
+        vi: "Chương FPS"
     },
     {
         Text: "TEXT_FPS_UNLOCKER",
@@ -671,7 +671,7 @@ class ModLanguage {
         id: "Sonance Casket",
         ja: "ソナンスカスケット",
         ko: "소넌스 관",
-        vi: "Sonance Casket"
+        vi: "Quan tài Sonance"
     },
     {
         Text: "TEXT_PUZZLE",
@@ -791,7 +791,7 @@ class ModLanguage {
         id: "Vakum Musuh",
         ja: "モンスターバキューム",
         ko: "몬스터 진공 청소기",
-        vi: "Hút quái vật"
+        vi: "Máy hút bụi quái vật"
     },
     {
         Text: "HEADING_FILTER",
@@ -801,7 +801,7 @@ class ModLanguage {
         id: "Saring",
         ja: "フィルター",
         ko: "필터",
-        vi: "Bộ Lọc"
+        vi: "Lọc"
     },
     {
         Text: "TEXT_SUNNY",
@@ -891,7 +891,7 @@ class ModLanguage {
         id: "No Clip",
         ja: "No Clip",
         ko: "No Clip",
-        vi: "Di chuyển tự do"
+        vi: "No Clip"
     },
     {
         Text: "TEXT_PLOT_SKIP",
@@ -911,8 +911,8 @@ class ModLanguage {
         id: "Pemecahan Teka-teki Otomatis",
         ja: "Auto Puzzle",
         ko: "자동 퍼즐 풀기",
-        vi: "Tự động giải đố"
-    }
+        vi: "Tự động giải câu đố"
+    },
 ];
 
   static ModTr = (string) => {
