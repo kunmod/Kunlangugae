@@ -111,7 +111,7 @@ class ModLanguage {
         id: "Pengganda Hit [F6]",
         ja: "ヒット倍率 [F6]",
         ko: "히트 멀티플라이어 [F6]",
-        vi: "Số Lượng Đòn Đánh [F6]"
+        vi: "Số lượng đòn đánh [F6]"
     },
     {
         Text: "TEXT_AUTO_PICK_TREASURE",
@@ -121,7 +121,7 @@ class ModLanguage {
         id: "Ambil Harta Otomatis [F7]",
         ja: "自動で宝を拾うんや [F7]",
         ko: "자동 보물 선택 [F7]",
-        vi: "Tự Động Nhặt Phần Thưởng [F7]"
+        vi: "Tự động nhặt phần thưởng [F7]"
     },
     {
         Text: "TEXT_AUTO_ABSORB",
@@ -131,7 +131,7 @@ class ModLanguage {
         id: "Serap Echo Otomatis [F8]",
         ja: "自動エコー吸収 [F8]",
         ko: "자동 에코 흡수 [F8]",
-        vi: "Tự Động Hấp Thụ Echo [F8]"
+        vi: "Tự động nhặt Echo [F8]"
     },
     {
         Text: "TEXT_KILL_AURA",
@@ -161,7 +161,7 @@ class ModLanguage {
         id: "Tanpa Cooldown [F11]",
         ja: "クールダウンなしやで [F11]",
         ko: "쿨다운 없음 [F11]",
-        vi: "Không Thời Gian Hồi Chiêu [F11]"
+        vi: "Xóa thời gian hồi chiêu [F11]"
     },
     {
         Text: "TEXT_PLAYER_SPEED",
@@ -181,7 +181,7 @@ class ModLanguage {
         id: "Kustom Teleport [INS]",
         ja: "てきとうな瞬間移動 [INS]",
         ko: "사용자 정의 텔레포트 [INS]",
-        vi: "Dịch Chuyển Tùy Chỉnh [INS]"
+        vi: "Dịch chuyển tùy chỉnh [INS]"
     },
     {
         Text: "TEXT_AUTO_LOOT",
@@ -191,7 +191,7 @@ class ModLanguage {
         id: "Otomatis Mengambil Barang [Num0]",
         ja: "自動小冊子の保存 [Num0]",
         ko: "자동 콜렉시 펜감빌 [Num0]",
-        vi: "bộ sưu tập tự động hóa [Num0]"
+        vi: "Tự động nhặt [Num0]"
     },
     {
         Text: "TEXT_CUSTOM_TP_STATE",
@@ -251,7 +251,7 @@ class ModLanguage {
         id: " | Posisi Sebelumnya [Atas]:",
         ja: " | 前のポジション [上矢印]",
         ko: " | 이전 위치 [올라]:",
-        vi: " | Vị Trí Trước [TRÊN]:"
+        vi: " | Vị Trí Trước [Mũi tên lên]:"
     },
     {
         Text: "TEXT_NEXT_POS",
@@ -261,7 +261,7 @@ class ModLanguage {
         id: " | Posisi Berikutnya [Bawah]:",
         ja: " | つぎのポジション [下]:",
         ko: " | 다음 위치 [낮추다]:",
-        vi: " | Vị Trí Kế [Thấp hơn]:"
+        vi: " | Vị Trí Kế [Mũi tên xuống]:"
     },
     {
         Text: "TEXT_ANTI_DITHER",
@@ -281,7 +281,7 @@ class ModLanguage {
         id: " | Atur Jeda [Kiri]:",
         ja: " | 遅延を設定する [左]:",
         ko: " | 지연 설정 [왼쪽]:",
-        vi: " | Đặt Độ Trễ [Bên trái]:"
+        vi: " | Đặt Độ Trễ [Mũi tên trái]:"
     },
     {
         Text: "TEXT_SELECT_RIGHT",
@@ -291,7 +291,7 @@ class ModLanguage {
         id: " | Pilih [Kanan]:",
         ja: " | 選択する [右]:",
         ko: " | 선택하다 [카난]:",
-        vi: " | Chọn [Phải]:"
+        vi: " | Chọn [Mũi tên phải]:"
     },
     {
         Text: "TEXT_IS_LAST_FILE",
@@ -371,7 +371,7 @@ class ModLanguage {
         id: "Pergi",
         ja: "行く",
         ko: "가다",
-        vi: "Đi"
+        vi: "Bắt đầu"
     },
     {
         Text: "TEXT_AUTO_MODE",
@@ -411,7 +411,7 @@ class ModLanguage {
         id: " | Mode Otomatis [End]:",
         ja: " | オートモード [End]:",
         ko: " | 자동 모드 [End]:",
-        vi: " | Tự Động [End]:"
+        vi: " | Tự động [End]:"
     },
     {
         Text: "TEXT_INFINITE_STAMINA",
@@ -421,7 +421,7 @@ class ModLanguage {
         id: "Stamina Tak Terbatas",
         ja: "無限のスタミナ",
         ko: "무한한 체력",
-        vi: "Vô hạn năng lượng"
+        vi: "Thể lực vô hạn"
     },
     {
         Text: "TEXT_CUSTOM_UID",
@@ -461,7 +461,7 @@ class ModLanguage {
         id: "Visual",
         ja: "ビジュアル",
         ko: "시각적",
-        vi: "Thị giác"
+        vi: "Cảnh vật"
     },
     {
         Text: "TEXT_HIDE_HUD",
@@ -581,7 +581,7 @@ class ModLanguage {
         id: "Aura Pembunuh Baru",
         ja: "新しいキルオーラ",
         ko: "새로운 킬 오라",
-        vi: "Tàn Sát Phiên Bản Mới"
+        vi: "Tàn sát phiên bản mới"
     },
     {
         Text: "TEXT_WORLD_SPEED",
@@ -591,7 +591,7 @@ class ModLanguage {
         id: "Kecepatan Dunia",
         ja: "世界スピード",
         ko: "세계 속도",
-        vi: "Tốc Độ Thế Giới"
+        vi: "Tốc độ thế giới"
     },
     {
         Text: "TEXT_KILL_ANIMAL",
@@ -601,7 +601,7 @@ class ModLanguage {
         id: "Bunuh Hewan",
         ja: "動物を殺す",
         ko: "동물을 죽이다",
-        vi: "Giết Động Vật"
+        vi: "Giết động vật"
     },
     {
         Text: "TEXT_SAVE_CONFIG",
@@ -671,7 +671,7 @@ class ModLanguage {
         id: "Sonance Casket",
         ja: "ソナンスカスケット",
         ko: "소넌스 관",
-        vi: "Quan tài Sonance"
+        vi: "Sonance Casket"
     },
     {
         Text: "TEXT_PUZZLE",
@@ -781,7 +781,7 @@ class ModLanguage {
         id: "Vakum Koleksi",
         ja: "収集真空",
         ko: "수집 진공",
-        vi: "Thu thập chân không"
+        vi: "Gom vật thu thập"
     },
     {
         Text: "TEXT_MOB_VACUUM",
@@ -791,7 +791,7 @@ class ModLanguage {
         id: "Vakum Musuh",
         ja: "モンスターバキューム",
         ko: "몬스터 진공 청소기",
-        vi: "Máy hút bụi quái vật"
+        vi: "Gom quái vật"
     },
     {
         Text: "HEADING_FILTER",
@@ -811,7 +811,7 @@ class ModLanguage {
         id: "Cerah",
         ja: "SUNNY",
         ko: "밝은",
-        vi: "Sáng"
+        vi: "Nắng"
     },
     {
         Text: "TEXT_CLOUDY",
@@ -831,7 +831,7 @@ class ModLanguage {
         id: "Hujan Badai",
         ja: "雷雨",
         ko: "뇌우",
-        vi: "Dông"
+        vi: "Giông"
     },
     {
         Text: "TEXT_SNOW",
@@ -851,7 +851,7 @@ class ModLanguage {
         id: "Hujan",
         ja: "雨",
         ko: "비",
-        vi: "Cơn mưa"
+        vi: "Mưa"
     },
     {
         Text: "TEXT_ROCK",
@@ -901,7 +901,7 @@ class ModLanguage {
         id: "Lewati Cerita",
         ja: "プロットのスキップ",
         ko: "스토리 건너뛰기",
-        vi: "Bỏ qua câu chuyện"
+        vi: "Bỏ qua hội thoại"
     },
     {
         Text: "TEXT_AUTO_PUZZLE",
@@ -911,7 +911,7 @@ class ModLanguage {
         id: "Pemecahan Teka-teki Otomatis",
         ja: "Auto Puzzle",
         ko: "자동 퍼즐 풀기",
-        vi: "Tự động giải câu đố"
+        vi: "Tự động giải đố"
     },
 ];
 
