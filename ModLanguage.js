@@ -27,8 +27,10 @@ class ModLanguage {
         return "vi";
       case "Korean":
         return "ko";
+      case "Français";
+        return "fr";
       default:
-        return "en";
+        return "fr";
     }
   }
 
@@ -40,6 +42,7 @@ class ModLanguage {
     "Indonesia",
     "Vietnamese",
     "Korean",
+    "Français"
   ];
 
   static translate = [
